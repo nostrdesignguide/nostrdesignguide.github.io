@@ -6,9 +6,9 @@ sidebar_position: 2
 
 Product growth loops are essentially self-sustaining mechanisms where the actions of users directly contribute to the product's growth. This is usually a sequence of events starting from a user discovering the product, to them getting value from it, to finally sharing it with others, which then brings in new users.
 
-> **Caution:** 
-> Growth loops are not replacements for quality products and experiences. At the end of the day, no amount of encouraged sharing or affiliate rewards can make up for a great experience. Growth loops work best when the product can stand on its own feet in terms of quality. 
-
+:::caution 
+Growth loops are not replacements for quality products and experiences. At the end of the day, no amount of encouraged sharing or affiliate rewards can make up for a great experience. Growth loops work best when the product can stand on its own feet in terms of quality. 
+:::
 
 Let’s look at a practical example of a growth loop in zap.stream:
 
