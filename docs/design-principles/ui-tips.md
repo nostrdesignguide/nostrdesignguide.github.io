@@ -183,7 +183,6 @@ Color is a massive topic that has roots in human psychology and physiology. Colo
 -   **Use accent colors instead of a new color.** When you need another color, chances are you’re better off using an accent color (a different hue of the same color). For example, you will often find apps with different colored backgrounds from the card (the content) that sit on that background. This is a perfect example where a different shade of the card color would have worked better.
     
     
-
   
 
 ### Line Length and Height
