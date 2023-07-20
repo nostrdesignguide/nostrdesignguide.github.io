@@ -45,7 +45,7 @@ Let’s explore additional methods a platform like zap.stream could bring new us
 
 ### More growth loops examples
 
-Dropbox 
+#### Dropbox 
 
 Dropbox grew seemingly overnight with a powerful referral system:
 
@@ -54,9 +54,9 @@ When the user accepted there would be a visual confirmation of how much extra sp
 New users would join via referral (often feeling special as it came from someone they know), and would repeat the process for themselves and their friends - inviting more people to unlock extra space. 
 
 
-Airbnb
+#### Airbnb
 
 Airbnb had a few growth loops working for them:
 
-Referral loop - airbnb offered double-sided referrals to friends who joined via a referral link, and to the person doing the referring. The friend could redeem the credit on their first booking, however, the referrer could only apply the credit to their next booking. 
-Product loop - Users who book a stay or experience are prompted to become a host and to earn on the platform. This encouraged further sharing with those new users’ network. 
+- **Referral loop** - airbnb offered double-sided referrals to friends who joined via a referral link, and to the person doing the referring. The friend could redeem the credit on their first booking, however, the referrer could only apply the credit to their next booking. 
+- **Product loop** - Users who book a stay or experience are prompted to become a host and to earn on the platform. This encouraged further sharing with those new users’ network. 
