@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknostr_design=self.webpackChunknostr_design||[]).push([[1613],{5093:s=>{s.exports=JSON.parse('{"permalink":"/Nostr-Design/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
