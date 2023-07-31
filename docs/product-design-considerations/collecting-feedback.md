@@ -34,8 +34,8 @@ Building in public simply means being actively involved with your audience by sh
 If there is a benefit to creating a dedicated space for customers and anyone with feedback, it's that the messages (notes) don't disappear out of the timeline and you / your team members can repond properly to every comment. 
 Traditionally, people have set up Slack, Discord and Telegram channels, but seeing how we're building nostr, we may as well use nostr tools for this purpose. Check out the following clients for group chat / communities:
 
-- **NostrChat**: Telegram alternative (web and iOS)
-- **0xChat**:  Group chat via public channels (iOS and Android)
+- **[NostrChat](https://www.nostrchat.io/)**: Telegram alternative (web and iOS)
+- **[0xChat](https://0xchat.com/)**:  Group chat via public channels (iOS and Android)
 
 ### Method #3: In-app feedback links
 

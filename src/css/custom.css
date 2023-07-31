@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #C4B5FD;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-alert-border-width: 1px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,7 +31,9 @@
   --ifm-navbar-background-color: #000;
   --ifm-color-gray-800: #222;
   --ifm-color-emphasis-300: #111;
+  --prism-background-color: #111;
 }
+
 
 .navbar__brand {
   font-size: 1.65rem;
@@ -79,11 +82,21 @@ html[data-theme='dark'] {
   --ifm-color-danger-contrast-foreground: rgb(255, 235, 236);
   --ifm-toc-border-color: #111;
   --ifm-navbar-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.1);
-  --ifm-card-background-color: #111;
+  --ifm-card-background-color: #000;
+  --ifm-color-emphasis-300: #111;
 }
 
 @media (min-width: 1920px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
+
+  .container {
+    max-width: 1100px;
+  }
+
+}
+
+.alert {
+  background-color: transparent;
 }
