@@ -164,5 +164,3 @@ Page Heading 3 : Live Radio Streams
 :::tip
 
 If we wanted to go the extra mile, we’d autosuggest the most popularly used tags as the user types them. This way if someone types lofi or lo-fi, they will use the same recommended tag that may be “LoFi”, avoiding the need for separate very closely titled pages which could be seen as spam.
-
-:::

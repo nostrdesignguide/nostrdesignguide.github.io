@@ -30,14 +30,11 @@ Here we wil explore various principles of good design to help you create the bes
 
 We'll cover topics such as:
 
-- Agile design
-- Customer in the loop
 - Design systems
 - User-centered design
 - Some UX laws
-- User feedback
-- Accessibility
-- UI tips
+- [Accessibility](/docs/design-principles/Accessibility)
+- [UI tips](/docs/design-principles/ui-tips)
 
 ## Refrence Designs
 
