@@ -21,7 +21,8 @@ In practice, product-led marketing starts with the user / customer and seeks to 
 - Building features that help users get the most value out of your product
 - Building mechanisms to encourage organic product growth via sharing and network effects
 - Building with proper SEO / programmatic SEO in mind
-- Using freemium models to allow users to experience the product before forking over any money. For Nostr clients this would mean exploring the client before signing up.
+- Using freemium models to allow users to experience the product before forking over any money. For Nostr clients this would mean exploring the client before signing up
+- Creating onboarding flows to help users get value out of the product as quickly as possible
 
 
 
