@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknostr_design=self.webpackChunknostr_design||[]).push([[8008],{4716:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/Nostr-Design/blog/tags/hola","allTagsPath":"/Nostr-Design/blog/tags","count":1}')}}]);

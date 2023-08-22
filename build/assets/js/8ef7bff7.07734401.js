@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknostr_design=self.webpackChunknostr_design||[]).push([[93],{7558:e=>{e.exports=JSON.parse('{"permalink":"/Nostr-Design/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
