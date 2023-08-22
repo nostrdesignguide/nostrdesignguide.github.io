@@ -14,12 +14,12 @@ const config = {
   url: 'https://nostrdesign.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'.
-  baseUrl: '/Nostr-Design/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'karnagedesign', // Usually your GitHub org/user name
-  projectName: 'Nostr-Design', // Usually your repo name.
+  organizationName: 'nostrdesignguide', // Usually your GitHub org/user name
+  projectName: 'nostrdesignguide.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +78,7 @@ const config = {
           },
           //  { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/karnagebitcoin/Nostr-Design',
+            href: 'https://github.com/nostrdesignguide/nostrdesignguide.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -127,7 +127,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/karnagebitcoin/Nostr-Design',
+                href: 'https://github.com/nostrdesignguide/nostrdesignguide.github.io',
               },
             ],
           },
