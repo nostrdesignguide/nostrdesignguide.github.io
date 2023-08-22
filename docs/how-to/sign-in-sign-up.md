@@ -24,4 +24,4 @@ Please check back often to see how the community opinion changes over time and t
 
 The most commonly accepted method for logging in is to use a Nostr extension or to create a new account. Some clients still allow users to input an nsec (private key), but the current consensus seems to view this practice negatively due to pontetial leaks.
 
-<img src={require('@site/static/img/login-flow.png').default} />
+<!-- <img src={require('@site/static/img/login-flow.png').default} /> -->
