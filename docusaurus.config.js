@@ -13,12 +13,12 @@ const config = {
   // Set the production url of your site here
   url: 'https://nostrdesign.org',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/build',
+  // For GitHub pages deployment, it is often '/<projectName>/'.
+  baseUrl: '/Nostr-Design/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'karnagedesign', // Usually your GitHub org/user name.
+  organizationName: 'karnagedesign', // Usually your GitHub org/user name
   projectName: 'Nostr-Design', // Usually your repo name.
 
   onBrokenLinks: 'throw',

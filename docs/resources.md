@@ -63,7 +63,6 @@ The following is a list of resources that may come in handy for nostr designers 
 - [Unicons](https://iconscout.com/unicons) - free line icons, and paid full set with solid and monochrome versions
 - [Heroicons](https://heroicons.com/) - 292 free icon (outlined, solid and mini) by the makers of Tailwind CSS and Tailwind UI
 - [css.gg](https://css.gg/app) - 704 free icons
-- 
 
 ## Font Choices (Free)
 
