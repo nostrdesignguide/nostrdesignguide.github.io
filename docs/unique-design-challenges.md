@@ -71,3 +71,9 @@ Inconsistent display of data and inconsistent experience across multiple clients
 [Explore Relay Interactions](https://)
 
 ## Challenge #4: How do we explain zaps?
+
+While not part of the core nostr protocol, zaps are popular enough that we should discuss them a bit here. Designers and developers have to consider where in the user journey zaps may be explained if at all. 
+
+In this guide we will explore how current clients are explaining zaps (if they are) and where / how we can improve the overall user experience by doing a better job at arming the user with the necessary information.
+
+[Explore Zaps](https://)

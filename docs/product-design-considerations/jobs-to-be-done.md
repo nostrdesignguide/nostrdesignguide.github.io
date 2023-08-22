@@ -56,43 +56,43 @@ Let’s look at the types of jobs a user might hire to do in the context of soci
 
   
 
-1. Connect with Friends and Family: Users hire social media to keep in touch with loved ones, see updates from their lives, and share personal news or updates.
+1. **Connect with Friends and Family:** Users hire social media to keep in touch with loved ones, see updates from their lives, and share personal news or updates.
 
   
 
-2. Discover News and Information: Social media apps can be used to stay updated on news, learn about recent events, or discover information on a variety of topics.
+2. **Discover News and Information:** Social media apps can be used to stay updated on news, learn about recent events, or discover information on a variety of topics.
 
   
 
-3. Entertainment: Users often hire social media for entertainment, whether it's watching videos, browsing memes, or catching up on celebrity news.
+3. **Entertainment:** Users often hire social media for entertainment, whether it's watching videos, browsing memes, or catching up on celebrity news.
 
   
 
-4. Professional Networking: Platforms like LinkedIn are hired to connect with professionals, search for jobs, and share professional achievements.
+4. **Professional Networking:** Platforms like LinkedIn are hired to connect with professionals, search for jobs, and share professional achievements.
 
   
 
-5. Learn New Skills: Users can hire social media platforms to learn new things, whether it's cooking techniques on Pinterest, dance moves on TikTok, or photography tips on Instagram.
+5. **Learn New Skills:** Users can hire social media platforms to learn new things, whether it's cooking techniques on Pinterest, dance moves on TikTok, or photography tips on Instagram.
 
   
 
-6. Inspiration and Motivation: Whether it's fitness, travel, or personal growth, users hire social media apps to find inspiration and motivation.
+6. **Inspiration and Motivation:** Whether it's fitness, travel, or personal growth, users hire social media apps to find inspiration and motivation.
 
   
 
-7. Community Building: Users hire social media to join communities of people with similar interests, participate in discussions, and feel a sense of belonging.
+7. **Community Building:** Users hire social media to join communities of people with similar interests, participate in discussions, and feel a sense of belonging.
 
   
 
-8. Self-expression: Users hire social media platforms to express themselves, share their work, thoughts, or showcase their personality.
+8. **Self-expression:** Users hire social media platforms to express themselves, share their work, thoughts, or showcase their personality.
 
   
 
-9. Product Research and Shopping: Many users turn to social media for product reviews, discovering new brands, and even for direct shopping through social commerce features.
+9. **Product Research and Shopping:** Many users turn to social media for product reviews, discovering new brands, and even for direct shopping through social commerce features.
 
   
 
-10. Promote a Cause or Movement: Users hire social media to raise awareness, advocate for causes they care about, and mobilize support.
+10. **Promote a Cause or Movement:** Users hire social media to raise awareness, advocate for causes they care about, and mobilize support.
 
   
 
@@ -100,19 +100,18 @@ Let’s look at the types of jobs a user might hire to do in the context of soci
 
   
 
-1.  Identify Jobs - Brainstorm possible jobs for your app considering your target audience and unique value.
+1.  **Identify Jobs** - Brainstorm possible jobs for your app considering your target audience and unique value.
     
-2.  Customer Research - Conduct interviews, surveys or focus groups with potential users to understand their needs and motivations.
+2.  **Customer Research** - Conduct interviews, surveys or focus groups with potential users to understand their needs and motivations.
     
-3.  Define the Jobs - Analyze research and define the main jobs from the user's perspective.
+3.  **Define the Jobs** - Analyze research and define the main jobs from the user's perspective.
     
-4.  Rank the Jobs - Prioritize jobs based on frequency, importance, and satisfaction to focus on significant jobs.
+4.  **Rank the Jobs** - Prioritize jobs based on frequency, importance, and satisfaction to focus on significant jobs.
     
-5.  Design - Develop features for the most critical jobs considering functional, emotional and social aspects.
+5.  **Design** - Develop features for the most critical jobs considering functional, emotional and social aspects.
     
-6.  Prototype and Test - Create a prototype and conduct usability tests. Gather feedback and refine your design.
+6.  **Prototype and Test** - Create a prototype and conduct usability tests. Gather feedback and refine your design.
     
-7.  Launch and Monitor - Launch your app and monitor user behavior and feedback. Look for new emerging jobs.
-    
-
-Iterate and Improve - Based on feedback and data, continually iterate and improve your app, reassessing the jobs as your user base evolves.
+7.  **Launch and Monitor** - Launch your app and monitor user behavior and feedback. Look for new emerging jobs.
+   
+8.  **Iterate and Improve** - Based on feedback and data, continually iterate and improve your app, reassessing the jobs as your user base evolves.

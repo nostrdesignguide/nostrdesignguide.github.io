@@ -13,12 +13,12 @@ const config = {
   // Set the production url of your site here
   url: 'https://nostrdesign.org',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // For GitHub pages deployment, it is often '/<projectName>/'.
+  baseUrl: '/Nostr-Design/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'karnagedesign', // Usually your GitHub org/user name.
+  organizationName: 'karnagedesign', // Usually your GitHub org/user name
   projectName: 'Nostr-Design', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -82,6 +82,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.nostrchat.io/channel/8e00a6af25c6d9d7c7033329b691ff0b512a3247a0084d8e1f4c5dedaabe2cc7',
+            label: 'Community',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -137,3 +142,4 @@ const config = {
 };
 
 module.exports = config;
+
