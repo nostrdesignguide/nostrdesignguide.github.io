@@ -33,7 +33,7 @@ On nostr, as a developer or designer you can also get direct feedback on your cl
 
 In our third model, the user / customer is the focus of our design-build cycle. This helps get clarity on effectiveness of proposed solutions and spot bad decisions early without wasting precious development time.
 
-That’s not to say that you must always involve the user in everything you build. You will have your own grand vision for how your product will work and wow your users and customers. Sometimes other people will not understand that vision until it is in front of them, clickable and explorable. 
+That’s not to say that you must always involve the user in everything you build. You will have your own grand vision for how your product will work and wow your users and customers. Sometimes other people will not understand that vision until it is in front of them, clickable and easy to explore. 
 
 ## Design only the absolute necessities at first
 
@@ -57,7 +57,7 @@ While design systems certainly make life easier for designers, they can take a l
 
 As the project matures and you are certain that the elements you’ve designed are not going to change significantly over time - that is a good time to start componentizing your design files. Or, when you find yourself constantly having to adjust multiple elements by selecting them often. 
 
-Of course, if you are a seasoned designer and feel comfotable setting up a design system first, go for it!
+Of course, if you are a seasoned designer and feel comfortable setting up a design system first, go for it!
 
 ## But, create components when working with repetitive elements
 

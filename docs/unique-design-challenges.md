@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Unique Design Challenges
 
-Nostr introduces many new concepts
+<img src={require('@site/static/img/challenges.png').default} />
 
 Nostr, given its nature, presents some unique design challenges and personal rewards. Nostr introduces several new concepts that most people are not familiar with:
 

@@ -6,7 +6,13 @@ sidebar_position: 1
 
 The following is a list of sample color palettes. They are provided mostly as starting points, guidance and ideas. You are encouraged to modify them as needed to fit your branding.
 
+:::info Resource
+Grab the [Reference Components figma file](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=1%3A6&mode=design&t=nfopHIuWJCu07RgM-1)
+:::
 ### Chill Green (Dark)
+
+<img src={require('@site/static/img/palette1.png').default} />
+
 ```
 #FFFFFF \\ Text
 #FFFFFF \\ Titles
@@ -19,6 +25,9 @@ The following is a list of sample color palettes. They are provided mostly as st
 ```
 
 ### Modern Dark
+
+<img src={require('@site/static/img/palette2.png').default} />
+
 ```
 #FFFFFF \\ Text
 #FFFFFF \\ Titles
@@ -31,6 +40,8 @@ The following is a list of sample color palettes. They are provided mostly as st
 ```
 
 ### Purple Breeze (Light Mode)
+<img src={require('@site/static/img/palette3.png').default} />
+
 ```
 #535465 \\ Text
 #11142D \\ Titles
@@ -43,6 +54,9 @@ The following is a list of sample color palettes. They are provided mostly as st
 ```
 
 ### Neutral Calm (Light)
+
+<img src={require('@site/static/img/palette4.png').default} />
+
 ```
 #1A1D1F \\ Text
 #1C1D1F \\ Titles
@@ -55,6 +69,9 @@ The following is a list of sample color palettes. They are provided mostly as st
 ```
 
 ### Smokey Blue (Dark)
+
+<img src={require('@site/static/img/palette5.png').default} />
+
 ```
 #1A1D1F \\ Text
 #1C1D1F \\ Titles
@@ -69,6 +86,9 @@ The following is a list of sample color palettes. They are provided mostly as st
 
 
 ### Midnight Mojito (Dark)
+
+<img src={require('@site/static/img/palette6.png').default} />
+
 ```
 #FFFFFF \\ Text
 #FFFFFF \\ Titles
@@ -82,6 +102,8 @@ The following is a list of sample color palettes. They are provided mostly as st
 ```
 
 ### Sand Dune (Light)
+<img src={require('@site/static/img/palette7.png').default} />
+
 ```
 #000000 \\ Text
 #000000 \\ Titles

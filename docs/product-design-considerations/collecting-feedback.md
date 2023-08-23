@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Collecing User Feedback
 
+<img src={require('@site/static/img/feedback.png').default} />
+
 Collecting user feedback is crucial for app design for a variety of reasons:
 
 1. **Identifying User Needs and Preferences**: Users are the ultimate end-users of any application. Their preferences, needs, and pain points should shape the design of the app. Collecting feedback helps you understand what users want, need, and value most in your app.
@@ -30,16 +32,21 @@ Building in public simply means being actively involved with your audience by sh
 6. **Ask for feedback**: Whenever you're unsure about a feature or direction, ask your audience for feedback. They will appreciate the opportunity to be involved and you can get valuable insights.
 7. **Metrics and KPIs**: If you're comfortable doing so, share your metrics, such as the number of users, growth rates, or other KPIs. This can add a concrete measure of your progress and achievements.
 
+<img src={require('@site/static/img/gathering-feedback.png').default} />
+A simple question can yield a lot of feedback on Nostr!
+
 ### Method #2 (less inclusive): Set up a community or a group chat space
 If there is a benefit to creating a dedicated space for customers and anyone with feedback, it's that the messages (notes) don't disappear out of the timeline and you / your team members can repond properly to every comment. 
 Traditionally, people have set up Slack, Discord and Telegram channels, but seeing how we're building nostr, we may as well use nostr tools for this purpose. Check out the following clients for group chat / communities:
 
-- **[NostrChat](https://www.nostrchat.io/)**: Telegram alternative (web and iOS)
-- **[0xChat](https://0xchat.com/)**:  Group chat via public channels (iOS and Android)
+- **NostrChat**: Telegram alternative (web and iOS)
+- **0xChat**:  Group chat via public channels (iOS and Android)
 
 ### Method #3: In-app feedback links
 
 Something as simple as a visible link to "Submit Feedback" is a great way to have users voice their issues.
+
+<img src={require('@site/static/img/feedback-link.png').default} />
 
 #### Is a Gitub link sufficient for soliciting feedback?
 The vast majority of users are unlikely to use GitHub issues submission process so submit feedback. Only the technically-inclined or highly motivated individuals may jump through the hurdles of signing up for Github and figuring out how to use it. The average user would likely require a simple form or widget similar to FeedbackFish to send feedback with a few clicks. One time bugs or small annoyances may not be sufficient to summon enough enthusiasm to register with Github. 
@@ -49,7 +56,7 @@ It's a good practice to let users know that you've received their feedback and y
 
 
 ### Method #4: Host live-streaming sessions with a Q&A
-
+You won't see this strategy recommended in the books, but some swear it works! Use a client such as [zap.stream](https://zap.stream/) to host a live stream where you ask users for feedback while working on your client. You can even do this regularly by live-streaming your design and development work. Some client developers are already doing this and get live feedback from their users, or interesting ideas.
 
 
 

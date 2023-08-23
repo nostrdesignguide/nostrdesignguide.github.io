@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Growth Loops
 
+<img src={require('@site/static/img/growth-loops.png').default} />
+
 Product growth loops are essentially self-sustaining mechanisms where the actions of users directly contribute to the product's growth. This is usually a sequence of events starting from a user discovering the product, to them getting value from it, to finally sharing it with others, which then brings in new users.
 
 :::caution 

@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Programmatic SEO
 
+<img src={require('@site/static/img/seo-cover.png').default} />
+
 Clients that plan on sticking around for the long haul should consider SEO in their design and development as soon as possible. SEO is one of the most reliable methods of acquiring new users over the long term - even more powerful than advertising and referral systems. While not strictly a design topic, programmatic SEO should be considered in the overall design of the product as it will determine how your pages are structured to accommodate the most complex queries.
 
   
@@ -14,7 +16,6 @@ Programmatic SEO can make use of categorical content and user-generated content.
 
 ### Categorical SEO examples
 
-  
 
 A client like zap.stream could have various categories of content for example:
 
@@ -38,9 +39,10 @@ A client like zap.stream could have various categories of content for example:
 -   Casual Chat Streams
     
 -   eSports streams
-    
 
-  
+#### Example of a programmatic SEO page: 
+<img src={require('@site/static/img/seo-example.png').default} />
+  In the image above we have the individual games as their own pages (1). The categories for the games are also pages (3). The game description helps on-page SEO (2). 
 
 **Before:**
 

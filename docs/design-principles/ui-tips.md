@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # UI Tips
 
+<img src={require('@site/static/img/ui-tips.png').default} />
+
 ### Grids
 
 Design is mostly about alignment and grids help you align your UI faster and with more confidence.
@@ -18,7 +20,7 @@ Why 8px grids? Because they calculate nicely into most resolutions and make your
 
   
 
-[image of an 8px grid UI component example]
+<img src={require('@site/static/img/8px-grid.png').default} />
 
   
 

@@ -5,6 +5,8 @@ sidebar_label: 'Introduction'
 
 # Nostr Design
 
+<img src={require('@site/static/img/introduction.png').default} />
+
 ## A comprehensive resource for designers and developers to build successful nostr products.
 The ultimate goal is to provide practical tips, reference designs and product know-how, so that developers start thinking about clients in ways that position them for success.
 

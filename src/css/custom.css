@@ -31,12 +31,18 @@
   --ifm-navbar-background-color: #000;
   --ifm-color-gray-800: #222;
   --ifm-color-emphasis-300: #111;
-  --prism-background-color: #111;
-}
 
+}
 
 .navbar__brand {
   font-size: 1.65rem;
+}
+
+figure {
+  margin: -24px 0 32px 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 27px;
 }
 
 .footer {
@@ -99,4 +105,8 @@ html[data-theme='dark'] {
 
 .alert {
   background-color: transparent;
+}
+
+.theme-doc-markdown.markdown img {
+  margin-bottom: 24px;
 }

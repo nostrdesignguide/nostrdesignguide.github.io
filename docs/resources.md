@@ -49,7 +49,7 @@ The following is a list of resources that may come in handy for nostr designers 
 ## Presentation 
 - [Xnapper](https://xnapper.com/) - your marketing website is as good as your screenshots. Take better screenshots with Xnapper!
 - [Mockuuups Studio](https://mockuuups.studio/) - generate nice mockups of your app or features for your marketing website
-- 
+  
 ## Figma Plugins
 - [Typescales](https://www.figma.com/community/plugin/739825414752646970/Typescales) - generate the proper type scales
 
@@ -63,6 +63,7 @@ The following is a list of resources that may come in handy for nostr designers 
 - [Unicons](https://iconscout.com/unicons) - free line icons, and paid full set with solid and monochrome versions
 - [Heroicons](https://heroicons.com/) - 292 free icon (outlined, solid and mini) by the makers of Tailwind CSS and Tailwind UI
 - [css.gg](https://css.gg/app) - 704 free icons
+  
 
 ## Font Choices (Free)
 
@@ -82,6 +83,7 @@ Popular font choices for UI Design:
 - [Manrope](https://fonts.google.com/specimen/Manrope)
 - [Nacelle](https://www.dotcolon.net/font/nacelle/)
 - [General Sans](https://www.fontshare.com/fonts/general-sans)
+- [Barlow](https://fonts.google.com/specimen/Barlow)
 
 ## Inspiration
 - [Mobbin](https://mobbin.com/) - Stuck? Not sure what's the best way your app should handle a certain feature or interaction? Get inspired by real mobile apps!

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Sign In / Sign Up Screens
@@ -18,10 +18,10 @@ The exhaustive permission warnings on extensions like Alby could create even fur
 
 Given this complexity, the current consensus leans on eliminating nsec inputs and asking the user to log in with an extension. However, some clients disregard and offer an nsec input regardless. 
 
-Please check back often to see how the community opinion changes over time and to see what becomes the commonly accepted practice as we have more time to consider various tradeoffs. 
+Please check back often to see how the community opinion changes over time and to see what becomes the commonly accepted practice as we have more time to consider various trade-offs. 
 
 ### Current Approach to Login
 
-The most commonly accepted method for logging in is to use a Nostr extension or to create a new account. Some clients still allow users to input an nsec (private key), but the current consensus seems to view this practice negatively due to pontetial leaks.
+The most commonly accepted method for logging in is to use a Nostr extension or to create a new account. Some clients still allow users to input an nsec (private key), but the current consensus seems to view this practice negatively due to potential leaks.
 
-<!-- <img src={require('@site/static/img/login-flow.png').default} /> -->
+<img src={require('@site/static/img/login-flow.png').default} />
