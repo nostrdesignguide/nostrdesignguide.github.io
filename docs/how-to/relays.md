@@ -13,7 +13,7 @@ Automating the decision for users may sound nice, but creates centralizing press
 In this section we will look at the pros and cons of various approaches and reflect on ways to improve the overall UX while maintaining a high degree of decentralization. 
 
 ## Should relays share the spotlight?
-Should we show relays prominently to users? Should they be tucked away into settings? Do we inform people which realy each note came from? Should relays be topic-specific or serve a variety of purposes? Is it ok to trust a few large relays as a starting point or does it create risk of centralization and abuse? 
+Should we show relays prominently to users? Should they be tucked away into settings? Do we inform people which relay each note came from? Should relays be topic-specific or serve a variety of purposes? Is it ok to trust a few large relays as a starting point or does it create risk of centralization and abuse? 
 
 These questions and many others are at the core of relay discovery and usage - which underpins the entire protocol. Depending on how you answer each question, the UX may differ greatly. 
 
@@ -97,8 +97,8 @@ Places we can enable relay discovery in the "behind-the-scenes" approach:
 
 The other approach to relay discovery is to elevate them to the primary method of navigation. One relay = one topic.
 
-This model resembles forum categories or subreddits if we think about Reddit's navigation. 
+This model resembles forum categories or sub-reddits if we think about Reddit's navigation. 
 
-In this setup, relays are dynamic, changing quickly and often. Unlikes "set it and forget it" settings treatment, the person using the app is constantly jumping from relay to relay. 
+In this setup, relays are dynamic, changing quickly and often. Unlike "set it and forget it" settings treatment, the person using the app is constantly jumping from relay to relay. 
 
-Technically, there are no clients that enable this setup yet, but it's something that has been explored a little. The realy-per-community use case has been taken over by NIP-72 (Moderated Communities) which is already implemented in at least 3 clients. The question is whether the relay-per-topic is an efficient way of handling communities and that's up to the individual developer to decide and or to implement. For now, it remains in the halls of possibilities. 
+Technically, there are no clients that enable this setup yet, but it's something that has been explored a little. The relay-per-community use case has been taken over by NIP-72 (Moderated Communities) which is already implemented in at least 3 clients. The question is whether the relay-per-topic is an efficient way of handling communities and that's up to the individual developer to decide and or to implement. For now, it remains in the halls of possibilities. 

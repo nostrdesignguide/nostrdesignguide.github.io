@@ -24,7 +24,7 @@ A "logged out view" simply refers to the demo, trial or freemium version of the 
 
 ## What should the logged out view contain?
 
-It's difficult to say without knowing the type of app you're creating, after all Nostr allows for almost any type of apps. For the sake of this execise we can explore some social client content ideas:
+It's difficult to say without knowing the type of app you're creating, after all Nostr allows for almost any type of apps. For the sake of this exercise we can explore some social client content ideas:
 
 **Trending notes** are a good bet for first user experience. Since other users are signaling quality, there’s a better chance the new user will find that content more engaging.
 
