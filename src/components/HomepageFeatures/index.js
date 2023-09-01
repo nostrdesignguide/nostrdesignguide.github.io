@@ -35,35 +35,16 @@ const FeatureList = [
   },
 ];
 
-const NewRowData = {
-  heading: "New Features",
-  subheading: "Explore what's new",
-  columns: [
-    {
-      title: "Column 1",
-      content: "Content for column 1"
-    },
-    {
-      title: "Column 2",
-      content: "Content for column 2"
-    },
-    {
-      title: "Column 3",
-      content: "Content for column 3"
-    }
-  ]
-};
-
 
 function Feature({ Svg, pretitle, title, description }) {
   return (
     <div className={clsx('item')}>
-      <div className="col-half feature">
+      <div className="col feature">
         <span className="pretitle">{pretitle}</span>
         <h3>{title}</h3>
         <p className='description'>{description}</p>
       </div>
-      <div className="col-half">
+      <div className="col">
         <Svg className={styles.featureSvg} role="img" />
       </div>
     </div>

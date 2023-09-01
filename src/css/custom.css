@@ -36,6 +36,10 @@
   --ifm-heading-color: #FFF;
 }
 
+.heroBanner_src-pages-index-module {
+  padding: 4rem 2rem 10rem 2rem !important;
+}
+
 .navbar__brand {
   font-size: 1.65rem;
 }
@@ -94,6 +98,129 @@ html[data-theme='dark'] {
   --ifm-color-emphasis-300: #111;
 }
 
+.alert {
+  background-color: transparent;
+}
+
+.theme-doc-markdown.markdown img {
+  margin-bottom: 24px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.theme-doc-markdown.markdown img:hover {
+  margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.heroBanner_src-pages-index-module {
+  justify-content: left;
+  background: #303030;
+  background-image: url(/static/img/home/header-image.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 320px;
+  text-align: left;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  align-content: center;
+  justify-content: center;
+}
+
+.pretitle {
+  text-transform: uppercase;
+  color: #8B6EFF;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.hero__subtitle {
+  max-width: 600px;
+  text-align: left;
+  padding-bottom: 24px;
+  color: var(--ifm-heading-color);
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--ifm-heading-color);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.description {
+  color: #7d7d7d;
+}
+
+.col p {
+  color: var(--ifm-color-content);
+}
+
+.theme-doc-markdown.markdown img:first-child {
+  margin-bottom: 0;
+}
+
+/*** Desktop and Up ***/
+@media (min-width: 1025px) {
+  .item {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .heroBanner_src-pages-index-module {
+    background-size: 80%;
+  }
+
+  .col {
+    width: 50%;
+  }
+
+  .features {
+    gap: 6rem;
+    margin-top: 4rem;
+  }
+
+  .features .item:nth-child(2) .col:first-child {
+    order: 1;
+  }
+
+  .features .item:nth-child(2) .col:last-child {
+    order: 0;
+  }
+
+  .heroBanner_src-pages-index-module {
+    min-height: 850px;
+  }
+
+}
+
+/* 1920px and up*/
 @media (min-width: 1920px) {
   body {
     font-size: 1.1rem;
@@ -124,8 +251,8 @@ html[data-theme='dark'] {
   }
 
   .features {
-    gap: 12rem !important;
-    margin-top: 12rem !important;
+    gap: 8rem;
+    margin-top: 8rem;
   }
 
   .description {
@@ -133,101 +260,6 @@ html[data-theme='dark'] {
   }
 
   .item {
-    gap: 8rem !important;
+    gap: 8rem;
   }
-}
-
-.alert {
-  background-color: transparent;
-}
-
-.theme-doc-markdown.markdown img {
-  margin-bottom: 24px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
-}
-
-.theme-doc-markdown.markdown img:hover {
-  margin-bottom: 24px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-
-.heroBanner_src-pages-index-module {
-  justify-content: left;
-  background: #303030;
-  background-image: url(/static/img/home/header-image.svg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  min-height: 850px;
-}
-
-.heroBanner_src-pages-index-module {
-  text-align: left;
-}
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  align-content: center;
-  justify-content: center;
-}
-
-.pretitle {
-  text-transform: uppercase;
-  color: #8B6EFF;
-  font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 0.1em;
-}
-
-.hero__subtitle {
-  max-width: 600px;
-  text-align: left;
-  padding-bottom: 24px;
-  color: var(--ifm-heading-color);
-}
-
-.col-half {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-}
-
-.item {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 4rem;
-}
-
-.highlight {
-  font-weight: bold;
-  color: var(--ifm-heading-color);
-}
-
-.features {
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-  margin-top: 6rem;
-}
-
-.description {
-  color: #7d7d7d;
-}
-
-.features .item:nth-child(2) .col-half:first-child {
-  order: 1;
-}
-
-.features .item:nth-child(2) .col-half:last-child {
-  order: 0;
-}
-
-.col-half p {
-  color: var(--ifm-color-content);
 }
