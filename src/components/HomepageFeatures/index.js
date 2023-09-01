@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/home/nostrich.svg').default,
     description: (
       <>
-        Just use the hashtag <span className='highlight'>#nostrdesign</span> and pixel-obsessed nostriches will flock to your notes!
+        Just use the hashtag <span className='highlight'></span>#nostrdesign and pixel-obsessed nostriches will flock to your notes!
       </>
     ),
   },
@@ -34,6 +34,26 @@ const FeatureList = [
     ),
   },
 ];
+
+const NewRowData = {
+  heading: "New Features",
+  subheading: "Explore what's new",
+  columns: [
+    {
+      title: "Column 1",
+      content: "Content for column 1"
+    },
+    {
+      title: "Column 2",
+      content: "Content for column 2"
+    },
+    {
+      title: "Column 3",
+      content: "Content for column 3"
+    }
+  ]
+};
+
 
 function Feature({ Svg, pretitle, title, description }) {
   return (
