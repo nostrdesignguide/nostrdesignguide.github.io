@@ -4,46 +4,47 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    pretitle: 'Feathers, Unite!',
+    title: 'Join the Herd',
+    Svg: require('@site/static/img/home/nostrich.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Just use the hashtag <span className='highlight'>#nostrdesign</span> and pixel-obsessed nostriches will flock to your notes!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    pretitle: 'Push the boundaries',
+    title: 'Why nostr?',
+    Svg: require('@site/static/img/home/whynostr.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Nostr presents <span className='highlight'>unique challenges for designers</span> who enjoy absorbing complex new interactions and distilling them to simple experiences. It’s a place to grow and to pave a new future!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    pretitle: 'Make it yours',
+    title: 'Your Vision. Alive.',
+    Svg: require('@site/static/img/home/flag-2.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Nostr is a blank canvas. It’s a chance to impart your vision on the new, open internet. A chance to <span className='highlight'>impact the next billion users</span>.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, pretitle, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+    <div className={clsx('item')}>
+      <div className="col-half feature">
+        <span className="pretitle">{pretitle}</span>
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p className='description'>{description}</p>
+      </div>
+      <div className="col-half">
+        <Svg className={styles.featureSvg} role="img" />
       </div>
     </div>
   );
@@ -53,7 +54,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="features">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

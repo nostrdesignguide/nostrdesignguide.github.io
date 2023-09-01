@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nostr Design',
-  tagline: 'Design better nostr clients',
+  tagline: 'Comprehensive resources and guide to help you design better clients.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

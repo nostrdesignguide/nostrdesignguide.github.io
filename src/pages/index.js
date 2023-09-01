@@ -12,7 +12,8 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className="container home-container">
+        <span className="pretitle">Brand Spakin' New!</span>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -20,6 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
             Read the Guide
+
           </Link>
         </div>
       </div>
@@ -32,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A comprehensive resource for designers and developers to build successful nostr products. <head />">
+      description="A comprehensive resource for designers and developers to build successful nostr products">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
