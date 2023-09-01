@@ -41,7 +41,7 @@ function Feature({ Svg, pretitle, title, description }) {
     <div className={clsx('item')}>
       <div className="col feature">
         <span className="pretitle">{pretitle}</span>
-        <h3>{title}</h3>
+        <h3 className='feature-heading'>{title}</h3>
         <p className='description'>{description}</p>
       </div>
       <div className="col">
