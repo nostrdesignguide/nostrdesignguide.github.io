@@ -65,10 +65,10 @@ const config = {
       image: 'img/nostr-cover.jpg',
       navbar: {
         title: 'Nostr Design',
-        //logo: {
-        // alt: 'Nostr Design Logo',
-        // src: 'img/logo.svg',
-        //},
+        logo: {
+          alt: 'Nostr Design Logo',
+          src: 'img/logo.svg',
+        },
         items: [
           {
             type: 'docSidebar',

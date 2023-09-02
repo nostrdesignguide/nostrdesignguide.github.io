@@ -124,13 +124,14 @@ html[data-theme='dark'] {
   text-align: left;
 }
 
+.heroBanner_src-pages-index-module {
+  padding: 4rem 2rem 10rem 2rem !important;
+}
 
 .home-container {
   display: flex;
   flex-direction: column;
   align-items: start;
-  align-content: center;
-  justify-content: center;
 }
 
 .pretitle {
@@ -148,78 +149,18 @@ html[data-theme='dark'] {
   color: var(--ifm-heading-color);
 }
 
-.col {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: left;
-}
-
-.feature {
-  flex-direction: column;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 1rem;
-}
-
-.highlight {
-  font-weight: bold;
-  color: var(--ifm-heading-color);
-}
-
-.features {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
 .description {
   color: #7d7d7d;
 }
 
-.col p {
-  color: var(--ifm-color-content);
-}
-
-.theme-doc-markdown.markdown img:first-child {
-  margin-bottom: 0;
-}
-
 /*** Desktop and Up ***/
 @media (min-width: 1025px) {
-  .item {
-    flex-direction: row;
-    gap: 4rem;
-  }
 
   .heroBanner_src-pages-index-module {
-    background-size: 80%;
+    background-size: 800px;
+    padding: 9rem 0 !important;
   }
 
-  .col {
-    width: 50%;
-  }
-
-  .features {
-    gap: 6rem;
-    margin-top: 4rem;
-  }
-
-  .features .item:nth-child(2) .col:first-child {
-    order: 1;
-  }
-
-  .features .item:nth-child(2) .col:last-child {
-    order: 0;
-  }
-
-  .heroBanner_src-pages-index-module {
-    min-height: 850px;
-  }
 
 }
 
@@ -230,11 +171,7 @@ html[data-theme='dark'] {
   }
 
   .container {
-    max-width: 1100px;
-  }
-
-  .features_src-components-HomepageFeatures-styles-module .container {
-    max-width: 1300px;
+    max-width: 1440px;
   }
 
   .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
@@ -243,30 +180,13 @@ html[data-theme='dark'] {
 
   }
 
-  .heroBanner_src-pages-index-module {
-    background-size: 1100px;
-
-  }
-
   .hero__title {
     font-size: 5rem;
   }
 
-  .feature-heading {
-    font-size: 3rem;
-    text-align: left;
+  .heroBanner_src-pages-index-module {
+    padding: 16rem 0 !important;
+    background-size: 1220px;
   }
 
-  .features {
-    gap: 8rem;
-    margin-top: 8rem;
-  }
-
-  .description {
-    font-size: 1.5rem;
-  }
-
-  .item {
-    gap: 8rem;
-  }
 }
