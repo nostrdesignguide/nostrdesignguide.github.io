@@ -4,46 +4,38 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    pretitle: 'Feathers, Unite!',
+    title: 'Join the Herd',
+    Svg: require('@site/static/img/home/nostrich.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Just use the hashtag <b>#nostrdesign</b> and pixel-obsessed nostriches will flock to your notes!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    pretitle: 'Push the boundaries',
+    title: 'Why nostr?',
+    Svg: require('@site/static/img/home/whynostr.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Nostr presents <b>unique challenges for designers</b> who enjoy absorbing complex new interactions and distilling them to simple experiences. It’s a place to grow and to pave a new future!
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+
+function Feature({ Svg, pretitle, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={styles.item}>
+      <div className={styles.col}>
+        <span className={styles.pretitle}>{pretitle}</span>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className={styles.col}>
+        <Svg className={styles.featureSvg} role="img" />
       </div>
     </div>
   );
@@ -52,8 +44,8 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className={styles.container}>
+        <div className={styles.features}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nostr Design',
-  tagline: 'Design better nostr clients',
+  tagline: 'Comprehensive resources and guide to help you design better clients.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,13 +63,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/nostr-cover.jpg',
       navbar: {
         title: 'Nostr Design',
-        //logo: {
-        // alt: 'Nostr Design Logo',
-        // src: 'img/logo.svg',
-        //},
+        logo: {
+          alt: 'Nostr Design Logo',
+          src: 'img/logo.svg',
+        },
         items: [
           {
             type: 'docSidebar',

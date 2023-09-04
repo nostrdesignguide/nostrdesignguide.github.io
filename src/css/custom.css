@@ -16,6 +16,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-alert-border-width: 1px;
+  --ifm-navbar-padding-horizontal: 2%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,7 +32,12 @@
   --ifm-navbar-background-color: #000;
   --ifm-color-gray-800: #222;
   --ifm-color-emphasis-300: #111;
+  --ifm-hero-text-color: #FFF;
+  --ifm-heading-color: #FFF;
+}
 
+.heroBanner_src-pages-index-module {
+  padding: 4rem 2rem 10rem 2rem !important;
 }
 
 .navbar__brand {
@@ -92,21 +98,95 @@ html[data-theme='dark'] {
   --ifm-color-emphasis-300: #111;
 }
 
-@media (min-width: 1920px) {
-  body {
-    font-size: 1.1rem;
-  }
-
-  .container {
-    max-width: 1100px;
-  }
-
-}
-
 .alert {
   background-color: transparent;
 }
 
 .theme-doc-markdown.markdown img {
   margin-bottom: 24px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.theme-doc-markdown.markdown img:hover {
+  margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.heroBanner_src-pages-index-module {
+  justify-content: left;
+  background: #303030;
+  background-image: url(/static/img/home/header-image.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 320px;
+  text-align: left;
+}
+
+.heroBanner_src-pages-index-module {
+  padding: 4rem 2rem 10rem 2rem !important;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.pretitle {
+  text-transform: uppercase;
+  color: #8B6EFF;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.hero__subtitle {
+  max-width: 600px;
+  text-align: left;
+  padding-bottom: 24px;
+  color: var(--ifm-heading-color);
+}
+
+.description {
+  color: #7d7d7d;
+}
+
+/*** Desktop and Up ***/
+@media (min-width: 1025px) {
+
+  .heroBanner_src-pages-index-module {
+    background-size: 800px;
+    padding: 9rem 0 !important;
+  }
+
+
+}
+
+/* 1920px and up*/
+@media (min-width: 1920px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+
+  .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
+    width: 100%;
+    padding: 0 2%;
+
+  }
+
+  .hero__title {
+    font-size: 5rem;
+  }
+
+  .heroBanner_src-pages-index-module {
+    padding: 16rem 0 !important;
+    background-size: 1220px;
+  }
+
 }
