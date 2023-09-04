@@ -28,6 +28,10 @@ h4 {
   flex-direction: column;
 }
 
+.imgvision {
+  margin-bottom: 16px;
+}
+
 /*** Desktop and Up ***/
 @media (min-width: 1025px) {
   .container {

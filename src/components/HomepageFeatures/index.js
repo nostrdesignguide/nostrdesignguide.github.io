@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/home/nostrich.svg').default,
     description: (
       <>
-        Just use the hashtag <span className='highlight'></span>#nostrdesign and pixel-obsessed nostriches will flock to your notes!
+        Just use the hashtag <b>#nostrdesign</b> and pixel-obsessed nostriches will flock to your notes!
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/home/whynostr.svg').default,
     description: (
       <>
-        Nostr presents <span className='highlight'>unique challenges for designers</span> who enjoy absorbing complex new interactions and distilling them to simple experiences. It’s a place to grow and to pave a new future!
+        Nostr presents <b>unique challenges for designers</b> who enjoy absorbing complex new interactions and distilling them to simple experiences. It’s a place to grow and to pave a new future!
       </>
     ),
   },

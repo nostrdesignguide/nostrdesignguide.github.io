@@ -4,22 +4,22 @@ import styles from './styles.module.css';
 function Vision({ image, title, description, link }) {
   const columns = [
     {
-      image: "@site/static/img/home/whynostr.svg",  // Add your image path here
+      image: require("@site/static/img/home/considerations.png").default,  // Use require to import the image
       title: "Product Considerations",
       description: "Know before you build. Is your client solving a real problem? What opportunities exist? How do you turn a side project into a business?",
-      link: ""  // Add your link here
+      link: "https://nostrdesign.org/docs/category/product-design-considerations/"  // Add your link here
     },
     {
-      image: "@site/static/img/home/whynostr.svg",  // Add your image path here
+      image: require("@site/static/img/home/approach.png").default,  // Use require to import the image
       title: "Practical Approaches",
       description: "Nostr is a paradigm shift and requires some thought out design decisions that can make or break user experience.",
-      link: ""  // Add your link here
+      link: "https://nostrdesign.org/docs/category/how-to/"  // Add your link here
     },
     {
-      image: "@site/static/img/home/whynostr.svg",  // Add your image path here
+      image: require("@site/static/img/home/referencedesigns.png").default,  // Use require to import the image
       title: "Reference Designs",
       description: "A bit of inspiration can go a long way! Check out some of the ways in which you can design your client, or use designs as a starting point.",
-      link: ""  // Add your link here
+      link: "https://nostrdesign.org/docs/category/reference-designs/"  // Add your link here
     }
   ];
 
@@ -33,7 +33,7 @@ function Vision({ image, title, description, link }) {
         <div className={styles.actions}>
           {columns.map((col, index) => (
             <div className={styles.col} key={index}>
-              <img src={col.image} alt={col.title} role='img' />
+              <img className={styles.imgvision} src={col.image} alt={col.title} role='img' />
               <h4>{col.title}</h4>
               <p>{col.description}</p>
               <a href={col.link} title={col.title}>Explore {col.title.toLowerCase()}</a>
