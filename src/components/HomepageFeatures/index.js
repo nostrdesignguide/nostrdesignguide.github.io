@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/home/nostrich.svg').default,
     description: (
       <>
-        Just use the hashtag <b>#nostrdesign</b> and pixel-obsessed nostriches will flock to your notes!
+        Just use the hashtag <a href="https://primal.net/search/%23nostrdesign">#nostrdesign</a> and pixel-obsessed nostriches will flock to your notes!
       </>
     ),
   },
