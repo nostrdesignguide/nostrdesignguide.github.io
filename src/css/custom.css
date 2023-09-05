@@ -101,7 +101,6 @@ html[data-theme='dark'] {
 .theme-doc-markdown.markdown img {
   margin-bottom: 24px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
 }
 
 .theme-doc-markdown.markdown img:hover {
