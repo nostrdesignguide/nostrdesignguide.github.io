@@ -5,13 +5,13 @@
 
 }
 
-h3 {
+.vision h3 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 24px;
 }
 
-h4 {
+.vision h4 {
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -69,7 +69,7 @@ h4 {
     max-width: 1440px;
   }
 
-  h3 {
+  .vision h3 {
     font-size: 3rem;
   }
 
