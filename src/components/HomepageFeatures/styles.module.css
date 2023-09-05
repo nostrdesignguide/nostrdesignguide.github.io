@@ -15,6 +15,13 @@
 .featureSvg {
   height: auto;
   width: auto;
+  transform: scale(1);
+  /* Smooth transition */
+  transition: transform 0.3s ease;
+}
+
+.featureSvg:hover {
+  transform: scale(1.05);
 }
 
 .col {
