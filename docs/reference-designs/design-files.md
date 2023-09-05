@@ -8,6 +8,7 @@ sidebar_position: 11
 
 All of the following files and work contained in them is open source. Use however you please. 
 
+- [Damus](https://www.figma.com/file/ORaT1T0Ywfbm0sIjwy5Rgq/Damus-iOS?type=design&node-id=0-1&mode=design)
 - [Luna](https://www.figma.com/file/ThUW7QxTYT0BUxcH48uelG/Luna?type=design&node-id=0%3A1&t=ygHFbUBPAVUi4JzM-1)
 - [Astro](https://www.figma.com/file/JuV9uaAUpG4DVLjwRh98MP/Astro?type=design&node-id=26%3A3065&t=oEyL8cqex6D9M6Is-1)
 - [Snort](https://www.figma.com/file/Q79i1WVA1bIAzYaLihgteN/Snort?type=design&node-id=0%3A1&t=BJy9Q6yahgT7Ar37-1)
