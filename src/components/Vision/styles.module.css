@@ -5,18 +5,13 @@
 
 }
 
-h3 {
+.vision h3 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 24px;
 }
 
-span {
-  font-size: 1.25rem;
-  line-height: 150%;
-}
-
-h4 {
+.vision h4 {
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -30,7 +25,17 @@ h4 {
 
 .imgvision {
   margin-bottom: 16px;
+  height: auto;
+  width: auto;
+  transform: scale(1);
+  /* Smooth transition */
+  transition: transform 0.3s ease;
 }
+
+.imgvision:hover {
+  transform: scale(1.05);
+}
+
 
 /*** Desktop and Up ***/
 @media (min-width: 1025px) {
@@ -64,12 +69,8 @@ h4 {
     max-width: 1440px;
   }
 
-  h3 {
+  .vision h3 {
     font-size: 3rem;
   }
 
-  span {
-    font-size: 2rem;
-    line-height: 150%;
-  }
 }

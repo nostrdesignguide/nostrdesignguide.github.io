@@ -83,11 +83,6 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            href: 'https://www.nostrchat.io/channel/8e00a6af25c6d9d7c7033329b691ff0b512a3247a0084d8e1f4c5dedaabe2cc7',
-            label: 'Community',
-            position: 'right',
-          },
         ],
       },
       footer: {
