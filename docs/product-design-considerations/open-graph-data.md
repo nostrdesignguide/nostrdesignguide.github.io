@@ -10,6 +10,28 @@ Open Graph (OG) tags communicate information that allows people to preview the l
 [Open Graph Data Generator](https://www.opengraph.xyz/) - use this to generate the necessary template and update the static values with your dynamic variables.
 ::: 
 
+*Example of output code:*
+```
+ <!-- HTML Meta Tags -->
+  <title>Nostr Design</title>
+  <meta name="description" content="A comprehensive resource for designers and developers to build successful nostr products">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://nostrdesign.org">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nostr Design">
+  <meta property="og:description" content="A comprehensive resource for designers and developers to build successful nostr products">
+  <meta property="og:image" content="https://nostrdesign.org/img/nostr-cover.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="nostrdesign.org">
+  <meta property="twitter:url" content="https://nostrdesign.org">
+  <meta name="twitter:title" content="Nostr Design">
+  <meta name="twitter:description" content="A comprehensive resource for designers and developers to build successful nostr products">
+  <meta name="twitter:image" content="https://nostrdesign.org/img/nostr-cover.jpg">
+  ```
+
 OG data includes:
 
 - Title
