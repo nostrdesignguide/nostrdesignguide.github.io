@@ -64,7 +64,10 @@ The following is a list of resources that may come in handy for nostr designers 
 - [Heroicons](https://heroicons.com/) - 292 free icon (outlined, solid and mini) by the makers of Tailwind CSS and Tailwind UI
 - [css.gg](https://css.gg/app) - 704 free icons
   
+## Logo
 
+- [The Noun Project](https://thenounproject.com/) - although this is an icon search website (for paid icons), many of the icons can make excellent starter logos for when you want your project to look nice without breaking bank for a custom logo. Can be used as a logo for $2.99 
+  
 ## Font Choices (Free)
 
 We've put tother some popular font choices for UI in this [Figma File](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=9%3A1264&mode=design&t=CDYX4Gq3JSOFtikY-1). See the ***Fonts*** page.
