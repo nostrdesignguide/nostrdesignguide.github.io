@@ -6,7 +6,7 @@ sidebar_position: 7
 
 Open Graph (OG) tags communicate information that allows people to preview the link before clicking it. 
 
-:::tip 
+:::tip Resource
 [Open Graph Data Generator](https://www.opengraph.xyz/) - use this to generate the necessary template and update the static values with your dynamic variables.
 ::: 
 
