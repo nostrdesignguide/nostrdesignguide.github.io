@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Guiding Principles
 
+<img src={require('@site/static/img/guiding-principles.png').default} />
+
 Use this page as a cheatsheet for the guiding principles of Nostr. These principles are meant to help you make decisions about your client and to help you understand the reasoning behind the design decisions made in the reference designs. They also serve as a quick reminder - a north star so to speak - to keep you focused. 
 
 ## Nostr Guiding Principles
