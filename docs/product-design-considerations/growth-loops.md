@@ -21,7 +21,7 @@ Let’s look at a practical example of a growth loop in zap.stream:
 
 Here we follow a classic growth loop pattern:
 
-1. **Input** - user signup
+1. **Input** - user sign up
 2. **Activation** - user starts streaming and broadcasts to their audience
 3. **Action** - Audience engages with the stream and the host 
 4. **Output** - Audience sees a prominent call to action to start their own stream (and earn sats?)
@@ -40,7 +40,7 @@ Let’s explore additional methods a platform like zap.stream could bring new us
 * **A new streamer onboarding flow** where the streamer is encouraged to set up a wallet and host their first stream. Upon finishing, allow accomplishments to be shared with one click to the streamer’s internal or external network.
 * **An additional follow system** outside of the nostr follow, where if you follow anyone on the client, you automatically see when they join a new stream (similar to how Steam shows friends playing games to encourage you to join theirs). 
 * **Educational streams** - the client could create an incentive system that asks streamers to produce educational content on how others can set up their own stream and why they should. Combine with rewards, achievements or double-sided referrals. 
-* **Watch rewards** - the more watch time the client user accumulates, the more unlockables they can share with their viewers. 
+* **Watch rewards** - the more watch time the client user accumulates, the more incentives they unlock.
 * **Recommended streams** - the client could recommend the types of streams the new user should create based on popular streamed content. For example, if a new game comes out but zap.stream has no content for this game, the client could recommend to stream it for maximizing audiences and rewards.
 * **SEO loops via recordings** - zap.stream could enable easier recording storing for users which would then benefit via automated transcription and video SEO, bringing users from outside of the nostr ecosystem. 
 

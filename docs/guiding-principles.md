@@ -52,6 +52,10 @@ Even the best designed and feature-complete client in the world may be all for n
 - Structuring the views in such a way that prioritizes performance by loading the most important content first. 
 - Use skeleton loaders and other techniques to make the app feel fast even if it's not.
 
+:::info Resource: 
+Use PageSpeed Insights to regularly test your client for issues. 
+::: 
+
 ### User-Centric Design
 
 Focus on the needs and experiences of the user throughtout the design process. 
@@ -88,8 +92,8 @@ Provide feedback to the user when they take an action. This can be done in many 
 - Occasionally use sound effects to indicate that something has happened. Don't over do it - stick to simple sounds and only when appropriate. For example, pull to refresh could have a sound effect.
 - Make use of [sekelton loaders](https://blog.prototypr.io/skeleton-loader-an-overview-purpose-usage-and-design-173b5340d0e1) to indicate that something is loading
 
-### Make it Consistent
-Maintin a uniform design throught your client. This means that the user should be able to easily recognize the same elements across different views. For example, if you use a certain color for buttons, use the same color for buttons across the entire client. If you use a certain font for headings, use the same font for headings across the entire client. Create components that follow a design system and apply the same hierarchy, spacing, color usage and other design elements across the entire client.
+### Maintain Consistency
+Maintain a uniform design throught your client. This means that the user should be able to easily recognize the same elements across different views. For example, if you use a certain color for buttons, use the same color for buttons across the entire client. If you use a certain font for headings, use the same font for headings across the entire client. Create components that follow a design system and apply the same hierarchy, spacing, color usage and other design elements across the entire client.
 
 
 ### Stick to Known Patterns When Possible

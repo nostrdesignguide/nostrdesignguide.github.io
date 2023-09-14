@@ -25,7 +25,7 @@ In this example we can see specific relay information (assuming one relay per to
 <img src={require('@site/static/img/relays/Desktop-Relay-Info.png').default} />
 
 ## Relay Browsing
-This is a hypothetical example of a client interface with a list of relays as categories. Selecting the relay cateogry updates the notes feed. Users automaticaly join the relay or a relay set as they navigate the client.
+This is a hypothetical example of a client interface with a list of relays as categories. Selecting the relay category updates the notes feed. Users automatically join the relay or a relay set as they navigate the client.
 <img src={require('@site/static/img/relays/Browse-by-relay.png').default} />
 
 ## Topic-Based Relays Grid
