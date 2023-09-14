@@ -6,7 +6,7 @@ sidebar_position: 3
 
 <img src={require('@site/static/img/guiding-principles.png').default} />
 
-Use this page as a cheatsheet for the guiding principles of Nostr. These principles are meant to help you make decisions about your client and to help you understand the reasoning behind the design decisions made in the reference designs. They also serve as a quick reminder - a north star so to speak - to keep you focused. 
+Use this page as a cheat sheet for the guiding principles of Nostr. These principles are meant to help you make decisions about your client and to help you understand the reasoning behind the design decisions made in the reference designs. They also serve as a quick reminder - a north star so to speak - to keep you focused. 
 
 ## Nostr Guiding Principles
 ### User Sovereignty
@@ -29,7 +29,7 @@ Focusing on specific use cases allows other developers to tap into existing clie
 ### Keep it Flexible
 
 Try to give users options to customize their experiences. 
-- Allow users to change appareance settings such as light and dark mode, font sizes. 
+- Allow users to change appearance settings such as light and dark mode, font sizes. 
 - Let users choose if they are right handed or left handed and adjust the UI accordingly.
 - Give people options to opt in or opt out of various types of notifications instead of grouping them under one "Notifications" toggle.
 - Allow users to specify information density if possible. 
@@ -43,7 +43,7 @@ The fastest path to awesome is the path that gets the user to the "aha" moment a
 Simplicity wins. Keep the interface as simple and intuitive as possible. Exceptions include tools designed for power users or for dense information.
 - Minimize the number of steps to accomplish a task. 
 - Minimize cognitive load. Instead of offering every option under the sun, consider offering fewer core options and allowing the user to discover more down the road. Often, less is more.
-- Use progressive disclosure to ease the user into new concepts instead of laying it on them all at once. For example, you could guide users to undestanding of relays, zaps and other concepts by slowly introducing them with tooltips or a resource center.
+- Use progressive disclosure to ease the user into new concepts instead of laying it on them all at once. For example, you could guide users to understanding of relays, zaps and other concepts by slowly introducing them with tooltips or a resource center.
 
 ### Make it Fast
 Even the best designed and feature-complete client in the world may be all for nothing if it's slow and nobody can use it. Performance is a feature and can make or break your client and all of the effort you've put into it. Consider the following:
@@ -58,17 +58,17 @@ Use PageSpeed Insights to regularly test your client for issues.
 
 ### User-Centric Design
 
-Focus on the needs and experiences of the user throughtout the design process. 
+Focus on the needs and experiences of the user throughout the design process. 
 - Add feedback collection mechanisms to your client that allow you to collect feedback from your users. 
 - Consider adding a simple form besides a typical link to the GitHub issue submission page. 
 - Build in open and ask for feedback early and often.
 - Treat complaints as great opportunities to improve your client. Do not minimize the user's experience or feelings. Never lash out at users for providing feedback, even if it's not constructive.
-- Try not to get attached to your own work. The preferences of many should supercede your own. Stay flexible and update the UI based on user feedback.
+- Try not to get attached to your own work. The preferences of many should supersede your own. Stay flexible and update the UI based on user feedback.
 
 ### Make Your Most Important Asks Prominent
 
 Consider what each page or view should help the user accomplish. What is the most important action you want the user to take? Make that action prominent and easy to find. 
-- Use color and visual hieherachy to make the most important actions stand out. For example, if you have a long-form client and the point is to share content, make the shae buttons easy to find and prominent.
+- Use color and visual hierarchy to make the most important actions stand out. For example, if you have a long-form client and the point is to share content, make the share buttons easy to find and prominent.
 - De-emphasize secondary actions via visual design. 
 - If it's hidden, it doesn't exist. Make sure the user can easily find the most important actions. If they are hidden under menus, consider ways to bring them out into the open.
 
@@ -90,10 +90,10 @@ Provide feedback to the user when they take an action. This can be done in many 
 - Use color to indicate that something has happened
 - Add micro-interactions to make the app feel alive and responsive
 - Occasionally use sound effects to indicate that something has happened. Don't over do it - stick to simple sounds and only when appropriate. For example, pull to refresh could have a sound effect.
-- Make use of [sekelton loaders](https://blog.prototypr.io/skeleton-loader-an-overview-purpose-usage-and-design-173b5340d0e1) to indicate that something is loading
+- Make use of [skeleton loaders](https://blog.prototypr.io/skeleton-loader-an-overview-purpose-usage-and-design-173b5340d0e1) to indicate that something is loading
 
 ### Maintain Consistency
-Maintain a uniform design throught your client. This means that the user should be able to easily recognize the same elements across different views. For example, if you use a certain color for buttons, use the same color for buttons across the entire client. If you use a certain font for headings, use the same font for headings across the entire client. Create components that follow a design system and apply the same hierarchy, spacing, color usage and other design elements across the entire client.
+Maintain a uniform design throughout your client. This means that the user should be able to easily recognize the same elements across different views. For example, if you use a certain color for buttons, use the same color for buttons across the entire client. If you use a certain font for headings, use the same font for headings across the entire client. Create components that follow a design system and apply the same hierarchy, spacing, color usage and other design elements across the entire client.
 
 
 ### Stick to Known Patterns When Possible
