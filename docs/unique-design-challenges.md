@@ -44,7 +44,7 @@ Designers are faced with figuring out how to best ease the user into the client 
 
 We don’t really know what works best until we try it. Is there a correct way of handling keys? These are the questions we are faced with and must explore in practice to address.
 
-[How to approach keys](https://)
+[How to approach keys](https://nostrdesign.org/docs/how-to/onboarding/)
 
 ## Challenge #2: When and how do we introduce signing extensions?
 
@@ -59,7 +59,7 @@ Signing extensions have their own install process and onboarding which is an ext
 2. Do clients link to them within their settings? If not Settings, where?
 3. To what extent do we need to explain these things? 
 
-[Explore possible solutions](https://)
+[Explore possible solutions](https://nostrdesign.org/docs/how-to/sign-in-sign-up/)
 ## Challenge #3: How do we explain relays?
 
 Traditional apps are hosted on centralized servers. The user authenticates their credentials and data is then fetched and sent from and to a server or a set of servers.
@@ -68,7 +68,7 @@ In nostr, there are no central servers. Relays are responsible for communicating
 
 Inconsistent display of data and inconsistent experience across multiple clients (some may connect you to some relays and others to totally different ones. Differences in caching mechanisms could also impact how data is displayed. All of this may contribute to the impression that the app / client is broken and that it’s not ready for serious consideration.
 
-[Explore Relay Interactions](https://)
+[Explore Relay Interactions](https://nostrdesign.org/docs/how-to/relays/)
 
 ## Challenge #4: How do we explain zaps?
 
@@ -76,4 +76,4 @@ While not part of the core nostr protocol, zaps are popular enough that we shoul
 
 In this guide we will explore how current clients are explaining zaps (if they are) and where / how we can improve the overall user experience by doing a better job at arming the user with the necessary information.
 
-[Explore Zaps](https://)
+[Explore Zaps](https://nostrdesign.org/docs/how-to/zaps/)
