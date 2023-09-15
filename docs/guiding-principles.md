@@ -109,7 +109,7 @@ Consider the following:
 - Use color contrast tools to ensure that your colors are accessible. WCAG AA is the minimum standard that designers should aim for.
 - Use [accessible colors](https://accessible-colors.com/) to ensure that your text is accessible
 - Opt for UI-friendly fonts that are easy to read. Avoid using decorative fonts for body text.
-- Consider things like tough targets - making buttons large enough to be easily tapped on mobile devices. Check that your links are spaced sufficiently to avoid accidental miss-clicking. Ensure that you have sufficient spacing to the edges of the screen to make for easier tapping of links. 
+- Consider things like touch targets - making buttons large enough to be easily tapped on mobile devices. Check that your links are spaced sufficiently to avoid accidental miss-clicking. Ensure that you have sufficient spacing to the edges of the screen to make for easier tapping of links. 
 - Use alt tags for images and other media to describe the content.
 - Use semantic HTML to ensure that your content is accessible to screen readers and other assistive technologies.
 - Keep your labels clear and simple. Avoid using jargon or technical terms.
@@ -118,6 +118,6 @@ Consider the following:
 
 ### Minimize Errors
 
-Users are found to make errors. Anticipate what errors they may come across and offer ways to correct them. Showing too many error notices when user is doing what is asked of them may turn them away from your client. 
+Users are bound to make errors. Anticipate what errors they may come across and offer ways to correct them. Showing too many error notices when user is doing what is asked of them may turn them away from your client. 
 
 For example, displaying an error when a person fails to upload an image in onboarding can be mitigated by not making the profile image a required field. Instead, you could use a placeholder image and allow the user to upload one later.
