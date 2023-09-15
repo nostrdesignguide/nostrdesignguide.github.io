@@ -2,6 +2,5 @@
 sidebar_position: 10
 ---
 
-# Threads
+# Reactions
 
-Coming soon...
