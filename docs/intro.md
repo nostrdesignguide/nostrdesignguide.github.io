@@ -10,7 +10,7 @@ sidebar_label: 'Introduction'
 ## A comprehensive resource for designers and developers to build successful nostr products.
 The ultimate goal is to provide practical tips, reference designs and product know-how, so that developers start thinking about clients in ways that position them for success.
 
-Throughout the resource, we will look at challenges around designing for nostr and try to provide some workable solutions. This resource is by no means definitive and will not have a solution for every nostr client (as there are so many use cases), but it will provide general guideance and offer some examples.
+Throughout the resource, we will look at challenges around designing for nostr and try to provide some workable solutions. This resource is by no means definitive and will not have a solution for every nostr client (as there are so many use cases), but it will provide general guidance and offer some examples.
 
 Nostr design is open source, which means anyone can contribute to it. Please keep in mind we are just getting started and the contribution functionality is not yet up and running. Check back often to find out how you can help!
 
@@ -24,11 +24,11 @@ We'll cover the differences between a website and a progressive web app, how to 
 
 Shipping fun side projects is great, but serious businesses require a bit more work. Nostr Design will explore a few things developers and designers may want to consider when designing their clients. 
 
-We will delve a little into topics such as the Jobs to be Done framework, product growth loops, collecting product feedback, programattic SEO, handling of translations and last but not least product-led marketing. We will explore how we can make our clients work smarter for our marketing, acquiring users and retaining them.
+We will delve a little into topics such as the Jobs to be Done framework, product growth loops, collecting product feedback, programattic SEO, handling of translations and last but not least, product-led marketing. We will explore how we can make our clients work smarter for our marketing, acquiring users and retaining them.
 
 ## Design Principles
 
-Here we wil explore various principles of good design to help you create the best user experiences and the best visual UIs possible. 
+Here we will explore various principles of good design to help you create the best user experiences and the best visual UIs possible. 
 
 We'll cover topics such as:
 
@@ -38,11 +38,11 @@ We'll cover topics such as:
 - [Accessibility](/docs/design-principles/Accessibility)
 - [UI tips](/docs/design-principles/ui-tips)
 
-## Refrence Designs
+## Reference Designs
 
-A design guide wouldn't be very useful if it didn't contain actual designed examples. The Refernce Designs section may include:
+A design guide wouldn't be very useful if it didn't contain actual designed examples. The Reference Designs section may include:
 
-- Actual figma files for existing open source projects
+- Actual Figma files for existing open source projects
 - Color palette ideas
 - Commonly used components (desktop and mobile)
 - Onboarding components
