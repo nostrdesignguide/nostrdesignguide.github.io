@@ -1,10 +1,10 @@
 # Color Palette Ideas
+:::tip Resource
+All of the designs on this page can be found in the [Reference Designs Figma File](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=213%3A11495&mode=design&t=qbn9PiAj1v6RWRwM-1). Feel free to make a copy and use however you wish. This resource is open source without any limitations.
+:::
 
 The following is a list of sample color palettes. They are provided mostly as starting points, guidance and ideas. You are encouraged to modify them as needed to fit your branding.
 
-:::info Resource
-Grab the [Reference Components figma file](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=1%3A6&mode=design&t=nfopHIuWJCu07RgM-1)
-:::
 ### Chill Green (Dark)
 
 <img src={require('@site/static/img/palette1.png').default} />
