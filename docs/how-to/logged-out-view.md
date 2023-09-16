@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Logged Out View
 
 A "logged out view" simply refers to the demo, trial or freemium version of the app. No login is required to see the contents of the app. 

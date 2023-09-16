@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Relays
 Relay screens contain many opportunities not yet explored. Depending on how the relays are used by the client (manually set, or automatically applied), we can design the interface in different ways. We can also make relay information more useful by welcoming people to learn more about relays and explore them. 
 

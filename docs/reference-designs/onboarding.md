@@ -1,8 +1,9 @@
----
-sidebar_position: 3
----
-
 # Onboarding
+
+:::tip Resource
+All of the designs on this page can be found in the [Reference Designs Figma File](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=213%3A11495&mode=design&t=qbn9PiAj1v6RWRwM-1). Feel free to make a copy and use however you wish. This resource is open source without any limitations.
+:::
+
 
 Onboarding components will vary depending on the type of client. For example, if your client's sole purpose is to set up a user profile, then you may want to include additional steps such as relay selection. Here are some examples of onboarding flows:
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Color Palette Ideas
 
 The following is a list of sample color palettes. They are provided mostly as starting points, guidance and ideas. You are encouraged to modify them as needed to fit your branding.

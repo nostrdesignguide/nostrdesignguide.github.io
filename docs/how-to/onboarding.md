@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Onboarding
 There are a few ways to approach onboarding. Regardless of our preferred approach, we should consider the progressive disclosure design principle.
 

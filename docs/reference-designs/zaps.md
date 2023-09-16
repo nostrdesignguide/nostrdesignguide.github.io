@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Zaps
 Zaps are the magic of nostr. With zaps, users can exchange value instantly. In this section we will highlight some common places for zaps and provide some example components of how to display zaps and their relevant views. If you have any unique design use cases for your specific client, please don't hestiate to reach out.
 

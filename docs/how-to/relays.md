@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Relays
 
 <img src={require('@site/static/img/relays-cover.png').default} />
