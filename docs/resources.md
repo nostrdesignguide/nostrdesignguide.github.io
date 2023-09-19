@@ -92,3 +92,6 @@ Popular font choices for UI Design:
 ## Inspiration
 - [Mobbin](https://mobbin.com/) - Stuck? Not sure what's the best way your app should handle a certain feature or interaction? Get inspired by real mobile apps!
 - [Good UX ](https://goodux.appcues.com/)- case studies and videos about good onboarding and other product experiences
+
+## Development
+- [nips.be](https://nips.be/search) - easy overview of existing nips and their functions. 
