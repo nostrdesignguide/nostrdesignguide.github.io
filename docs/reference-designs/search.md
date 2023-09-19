@@ -13,4 +13,30 @@ Basic search for hashtags and usernames. Entering text will return results for n
 
 ## Returned Results wth Filtering In-Content
 In this example, a person has searched for "fi". We can present results from a variety of categories such as `Profiles`, `Notes & Replies`, `Hashtags` etc... 
-<img src={require('@site/static/img/search/Search-results-with-filtering.png').default} />
+
+## Combined Search
+Combined search can be used to retrieve multiple types of results and enable in-search filtering. Below are some examples of how in-search filtering could look if implemented:
+
+<img src={require('@site/static/img/search/Combined-Search.png').default} />
+
+### Hashtags
+Hashtags and other filtering criteria could be implemented as tabs within the search results. We added the number of notes under each hashtag to indicate the level of activity.
+
+<img src={require('@site/static/img/search/Combined-Search-Hashtags.png').default} />
+
+### Moderated Communities
+Below is a sample of how moderated communities (NIP-72) could be surfaced in search.
+
+<img src={require('@site/static/img/search/Combined-Search-Communities.png').default} />
+
+### Apps
+Some clients implement an apps tab to surface other nostr apps. 
+
+<img src={require('@site/static/img/search/Combined-Search-Apps.png').default} />
+
+<img src={require('@site/static/img/search/Combined-Search-DVM-Models.png').default} />
+
+<img src={require('@site/static/img/search/Condensed-Search-Variation-w-Close.png').default} />
+
+<img src={require('@site/static/img/search/Combined-Search-Relay-Groups.png').default} />
+
