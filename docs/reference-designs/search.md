@@ -11,6 +11,9 @@ On mobile, we would just shrink the width.
 Basic search for hashtags and usernames. Entering text will return results for notes containing that word. An advanced version of the simple search could return `Topics`. 
 <img src={require('@site/static/img/search/Simple-Search.png').default} />
 
+### Simple search variation with close button
+<img src={require('@site/static/img/search/Condensed-Search-Variation-w-Close.png').default} />
+
 ## Returned Results wth Filtering In-Content
 In this example, a person has searched for "fi". We can present results from a variety of categories such as `Profiles`, `Notes & Replies`, `Hashtags` etc... 
 
@@ -34,9 +37,16 @@ Some clients implement an apps tab to surface other nostr apps.
 
 <img src={require('@site/static/img/search/Combined-Search-Apps.png').default} />
 
+### DVM Models
+A search result for a (D)ata (V)ending (M)achine model could open up natively within the client if it supports it, or open up an external preferred client(s). For external use, we'd probably want to indicate that this is taking users outside the existing app (perhaps with an external link icon, not pictured below).
 <img src={require('@site/static/img/search/Combined-Search-DVM-Models.png').default} />
 
-<img src={require('@site/static/img/search/Condensed-Search-Variation-w-Close.png').default} />
-
+### Relay Groups
+If topics were sourced from multiple topic-specific-relays, the client could display relay group results like so:
 <img src={require('@site/static/img/search/Combined-Search-Relay-Groups.png').default} />
 
+## Mobile Search Examples
+
+<img src={require('@site/static/img/search/mobile-search1.png').default} />
+<img src={require('@site/static/img/search/mobile-search2.png').default} />
+<img src={require('@site/static/img/search/mobile-search3.png').default} />
