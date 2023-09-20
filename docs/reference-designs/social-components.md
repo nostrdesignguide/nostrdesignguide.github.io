@@ -1,3 +1,0 @@
-# Social Components
-
-Coming soon...
