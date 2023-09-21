@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Relays
 
 <img src={require('@site/static/img/relays-cover.png').default} />
@@ -53,8 +49,8 @@ There are multiple areas to present relays depending on how much flexibility we'
 The most obvious place is the settings area. Some things to consider:
 
 - **Keep relay displays user-friendly.** Showing too much technical detail can scare non-technical users away. For example, since `wss://` repeats for every relay, we can abstract it away and allow people to enter the relay name instead (while showing the wss:// part in a muted color).
-- **Consider adding an advanced mode** if you'd like to give your users ultimate control over their realys (read / write toggles, enabling which relays can access which parts of the app etc...)
-- **Use unambigious labels** to clearly label what things mean. For example, using the bitcoin logo for a paid relay may not be obvious to people who know nothing about bitcoin.
+- **Consider adding an advanced mode** if you'd like to give your users ultimate control over their relays (read / write toggles, enabling which relays can access which parts of the app etc...)
+- **Use unambiguous labels** to clearly label what things mean. For example, using the bitcoin logo for a paid relay may not be obvious to people who know nothing about bitcoin.
 - **Provide additional resources** to learn more about relays
 - **Provide some relay recommendations** for easy one-click additions
 - **Consider creating a FAQ section** to address a few of the most asked questions such as "how many relays do I need?"
@@ -88,7 +84,7 @@ Most "traditional" types of clients will likely treat relays as a setting you ca
 Places we can enable relay discovery in the "behind-the-scenes" approach:
 
 1. **In the user settings.** Most clients will include a relays or a "network" tab under user menu or in the settings menu. 
-2. **Discover more relays link** that leads people to a bigger list of relays (whether within client or outisde of client)
+2. **Discover more relays link** that leads people to a bigger list of relays (whether within client or outside of client)
 3. **User profile page**, in a "relays" tab.
 
 

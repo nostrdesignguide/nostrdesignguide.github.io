@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Impostor Prevention
 
 Since nostr doesn't have central servers and there is no way to authenticate any users, we run into the challenge of preventing impostors on the protocol. Some solutions have been devised, though none are perfect yet. Here we'll explore various concepts such as NIP5 (not a good prevention mechanism) along with other ways of preventing impostors. 

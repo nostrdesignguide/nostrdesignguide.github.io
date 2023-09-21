@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Sign In / Sign Up Screens
 
 ## Logging in with Extensions

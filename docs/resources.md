@@ -10,6 +10,7 @@ The following is a list of resources that may come in handy for nostr designers 
 - [Don't Make Me Think](https://www.google.com/search?q=dont+make+me+think) by Steve Krug - a classic on web usability dos and don'ts. 
 - [Hooked - How to Build Habit-Forming Products](https://www.google.com/search?q=hooked+how+to+build+habit-forming+products) by Nir Eyal and Ryan Hoover. An excellent, must-read for any product manager or developer. This book helps understand the various mechanics behind successful products and why some products fail.
 - [Make](https://readmake.com/)- The Indie Maker Handbook by Pieter Levels - a practical way of building startups as an independent maker (no VC funding). This book covers every step of the startup journey from ideation, building, launching to growing, monetizing and automating and exiting your business. Great for anyone who would rather work on their own terms without involving any VCs.  
+- [The Mom Test](https://www.momtestbook.com/) by Rob Fitzpatrick - learn how to uncover product ideas that people will actually pay for. This book talks about how to conduct interviews to uncover product ideas. Most people make the mistakes mentioned so it's a must read for anyone building their first startup. 
 
 ## UX / Growth Design
 - [Growth.Design](https://growth.design/case-studies) - case studies for good UX, onboarding and overall growth design.
@@ -91,3 +92,6 @@ Popular font choices for UI Design:
 ## Inspiration
 - [Mobbin](https://mobbin.com/) - Stuck? Not sure what's the best way your app should handle a certain feature or interaction? Get inspired by real mobile apps!
 - [Good UX ](https://goodux.appcues.com/)- case studies and videos about good onboarding and other product experiences
+
+## Development
+- [nips.be](https://nips.be/search) - easy overview of existing nips and their functions. 

@@ -1,8 +1,7 @@
----
-sidebar_position: 7
----
-
 # Relays
+:::tip Resource
+All of the designs on this page can be found in the [Reference Designs Figma File](https://www.figma.com/file/C2ztFLDxihrfturW7Q6kbj/Reference-Components?type=design&node-id=213%3A11495&mode=design&t=qbn9PiAj1v6RWRwM-1). Feel free to make a copy and use however you wish. This resource is open source without any limitations.
+:::
 Relay screens contain many opportunities not yet explored. Depending on how the relays are used by the client (manually set, or automatically applied), we can design the interface in different ways. We can also make relay information more useful by welcoming people to learn more about relays and explore them. 
 
 Besides showing relays users are connected to, we also recommend some popular relays. In some cases the bitcoin symbol is not clear enough that the relay is paid so we use text to label them as free or paid. 
@@ -25,7 +24,7 @@ In this example we can see specific relay information (assuming one relay per to
 <img src={require('@site/static/img/relays/Desktop-Relay-Info.png').default} />
 
 ## Relay Browsing
-This is a hypothetical example of a client interface with a list of relays as categories. Selecting the relay cateogry updates the notes feed. Users automaticaly join the relay or a relay set as they navigate the client.
+This is a hypothetical example of a client interface with a list of relays as categories. Selecting the relay category updates the notes feed. Users automatically join the relay or a relay set as they navigate the client.
 <img src={require('@site/static/img/relays/Browse-by-relay.png').default} />
 
 ## Topic-Based Relays Grid

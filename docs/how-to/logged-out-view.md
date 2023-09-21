@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Logged Out View
 
 A "logged out view" simply refers to the demo, trial or freemium version of the app. No login is required to see the contents of the app. 
@@ -38,7 +34,7 @@ Apps that require logging in to experience them are likely to have higher bounce
 
 What you show in your logged out view is important as it is your potential users's first impression of your client. A few tips:
 
-- **Focus on surfacing engaging content such as photos and videos.** Social clients are more interesting with interactive and immresive media. Showing a bunch of text notes may be interesting to a few people, but not to the general audience. 
+- **Focus on surfacing engaging content such as photos and videos.** Social clients are more interesting with interactive and immersive media. Showing a bunch of text notes may be interesting to a few people, but not to the general audience. 
 - If communities are your focus, **curate quality and active communities** instead of showing everything. Better yet, **surface popular posts** from communities to get people engaged right away.
 - Consider auto-playing media on scroll (but muted)
 

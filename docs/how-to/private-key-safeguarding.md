@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Private Key Safeguarding
 
 There is no password reset in Nostr. The moment the user leaks their keys, it’s game over and a new npub has to be created. 

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Sharing
 
 Sharing outside of nostr makes nostr grow faster. I didn't mean to rhyme, but it's true. 
