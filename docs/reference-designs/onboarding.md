@@ -43,3 +43,7 @@ The following mockups come from the Luna (nonexistant) client [design file.](htt
 <figure>
 <figcaption>We could make the notice much smaller or reduce it to an "urgent" icon to save on space. The ideas is to defer the keys step for a time convenient to the user.</figcaption>
 </figure>
+
+## Mute Keywords and Lists
+Clients have the option of including mute lists in onboarding. Mute lists are a great way to personalize a feed and avoid seeing topics that may not be of interest (like crypto). This should probably be done in combination with topic and or hashtag following.
+<img src={require('@site/static/img/onboarding/mute-lists.png').default} />
