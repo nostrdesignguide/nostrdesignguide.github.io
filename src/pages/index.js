@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A comprehensive resource for designers and developers to build successful nostr products">
+      description="A comprehensive resource for designers and developers to build successful nostr products | TD#001 ">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
