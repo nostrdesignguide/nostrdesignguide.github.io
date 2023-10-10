@@ -95,3 +95,6 @@ Popular font choices for UI Design:
 
 ## Development
 - [nips.be](https://nips.be/search) - easy overview of existing nips and their functions. 
+
+## Illustrations
+[Charco Illustrations](https://www.charco.design/charco) - a set of 16 free illustrations, pencil style

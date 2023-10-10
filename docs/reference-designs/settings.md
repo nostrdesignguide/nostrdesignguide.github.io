@@ -7,8 +7,25 @@ The settings screen can vary quite a bit depending on the type of client, platfo
 
 Use these designs to help you get an idea of how to display settings, or as starting points for further customization and styling. If you'd like help with your open source project, please don't hesitate to tag `#nostrdesign `in nostr or reach out to the Open Stats designers.
 
+
+## Desktop Settings
+You could give the icon backgrounds their own colors!
+<img src={require('@site/static/img/settings/settings-desktop-variation.png').default} />
+
+## Narrow Container Settings
 <img src={require('@site/static/img/settings/settings1.png').default} />
 
+## Narrow Container Variation
 <img src={require('@site/static/img/settings/settings2.png').default} />
 
+## Extra Narrow Container Settings
 <img src={require('@site/static/img/settings/settings3.png').default} />
+
+## Simple Mobile Menu
+Design with your theme colors and add colors to the icon backgrounds as needed.
+
+<img src={require('@site/static/img/settings/mobile-simple.png').default} />
+
+## Advanced Mobile Menu
+Style with your colors or theme palette. 
+<img src={require('@site/static/img/settings/mobile-advanced.png').default} />
