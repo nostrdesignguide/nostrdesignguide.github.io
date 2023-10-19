@@ -94,7 +94,7 @@ Popular font choices for UI Design:
 - [Good UX ](https://goodux.appcues.com/)- case studies and videos about good onboarding and other product experiences
 
 ## Development
-- [nips.be](https://nips.be/search) - easy overview of existing nips and their functions. 
+- [List with all kinds](https://nostrdata.github.io/kinds/) - easy overview of existing kinds and related NIPs. 
 
 ## Illustrations
 [Charco Illustrations](https://www.charco.design/charco) - a set of 16 free illustrations, pencil style
