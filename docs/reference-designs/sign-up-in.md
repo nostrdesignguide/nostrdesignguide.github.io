@@ -23,4 +23,8 @@ Instead of hiding functions that are only available to logged in users, we can s
 
 <img src={require('@site/static/img/sign-up-in/full-screen-mobile.png').default} />
 
+### Sign In
+The signing in or logging in process can start with an extension. Currently this is the primary method of signing in on Nostr, so we can recommend some good defaults with an option to link out to other extensions. 
+<img src={require('@site/static/img/sign-up-in/sign-in-alby-nos2x.png').default} />
 
+<img src={require('@site/static/img/sign-up-in/sign-in-nostore.png').default} />
