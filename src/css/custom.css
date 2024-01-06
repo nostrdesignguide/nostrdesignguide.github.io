@@ -35,6 +35,7 @@
   --ifm-color-emphasis-300: #111;
   --ifm-hero-text-color: #FFF;
   --ifm-heading-color: #FFF;
+  --docsearch-searchbox-background:#262626;
 }
 
 .navbar__brand {

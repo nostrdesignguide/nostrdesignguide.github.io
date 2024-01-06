@@ -9,7 +9,6 @@ const config = {
   title: 'Nostr Design',
   tagline: 'Comprehensive resources and guide to help you design better clients.',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://nostrdesign.org',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -129,6 +128,19 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'YEJBPK9YKG',
+  
+        // Public API key: it is safe to commit it
+        apiKey: 'c196ff63e9c85bf9e719436be5e92069',
+  
+        indexName: 'nostrdesign',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
       },
     }),
 };
