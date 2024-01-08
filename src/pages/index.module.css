@@ -1,0 +1,131 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  justify-content: left;
+  background: #303030;
+  background-image: url(/static/img/home/header-image.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 320px;
+  text-align: left;
+  padding: 4rem 2rem 10rem 2rem !important;
+}
+
+a.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+a.button {
+  color: #000;
+  background-color: var(--ifm-color-primary);
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+a.button svg {
+  vertical-align: middle;
+}
+
+a.buttonSecondary {
+  color: #000;
+  background-color: #FFF;
+}
+
+
+a.button:hover {
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pretitle {
+  text-transform: uppercase;
+  color: #8B6EFF;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.heroSubtitle {
+  max-width: 600px;
+  text-align: left;
+  padding-bottom: 24px;
+  color: var(--ifm-heading-color);
+}
+
+.description {
+  color: #7d7d7d;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+/*** Desktop and Up ***/
+@media (min-width: 1025px) {
+
+  .container {
+    max-width: 1140px;
+    ;
+  }
+
+  .heroBanner {
+    background-size: 800px;
+    padding: 9rem 0 !important;
+  }
+
+  .heroTitle {
+    font-size: 3rem;
+  }
+
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+    max-width: 500px;
+    ;
+  }
+
+}
+
+/* 1920px and up*/
+@media (min-width: 1920px) {
+  .heroTitle {
+    font-size: 5rem;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+
+  .heroBanner {
+    padding: 16rem 0 !important;
+    background-size: 1220px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.6rem;
+  }
+}
