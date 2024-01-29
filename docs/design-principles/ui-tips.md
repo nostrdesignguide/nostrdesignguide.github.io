@@ -28,8 +28,10 @@ However, there are times where you need to step down to a 4px grid for smaller U
 
   
 
-[image of a 4px grid ui component]
-
+<img src={require('@site/static/img/4px-grid.png').default} />
+<figure>
+<figcaption>In this example, we have sidebar widgets to be shown on the right of the content. The widgets utilize a 4px grid (spacing of 12px) to make them more compact. Using an 8px grid (16px spacing) would make for too much white space and limit the amount of content - such as featured notes text.</figcaption>
+</figure>
   
 
 :::tip  
@@ -199,7 +201,7 @@ The general rule is a maximum line length of 75 characters (including spaces), u
 
   
 
-[example of UI where the line length is too long]
+<img src={require('@site/static/img/line-length.png').default} />
 
   
 
