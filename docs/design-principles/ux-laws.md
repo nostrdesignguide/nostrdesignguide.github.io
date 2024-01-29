@@ -11,6 +11,10 @@ The time it takes to move to a target is a function of the distance to the targe
 ## Jakob's Law
 Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know. This is why it’s important to follow common design patterns and not reinvent the wheel. While it may be tempting to think of totally new ways to navigate nostr interoperability, it’s best to stick to what users already know. This minimizes the learning curve and makes your app more intuitive.
 
+This is a critical UX law to understand because it may mean the demise of otherwise great clients. If a person doesn't have a familiar understanding of how to use the app, they may abandone it without ever giving it a chance.
+
+One way to increase the chances of a new app being adopted is to look at leading industry apps and see how they do things. You don't need to copy the UX exactly, but consider the common patterns and how you can apply them to your app.
+
 ## Tesler's Law
 Tesler’s Law states that for any system there is a certain amount of complexity which cannot be reduced. This means that either the app or the user must assume the complexity without going so far as abstracting it away. For example, some of the core principles of Nostr are keys and relays. It would be tempting to simply hide relays and never expose users to them, but this would be a mistake. Users need to understand the concept of relays in order to understand how Nostr works. The same goes for keys, which are essential to how nostr operates. Simply renaming them to username and password would be abstracting away too far. Instead, provide useful hints to explain what keys are and how they work. 
 
