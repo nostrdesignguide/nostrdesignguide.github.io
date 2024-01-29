@@ -5,6 +5,12 @@ sidebar_label: 'Resources'
 
 # Resources
 The following is a list of resources that may come in handy for nostr designers and developers.
+
+## Nostr Icons
+The following icons were created by the community. Since Nostr doesn't have a logo that everyone can agree on, it is up to the app developer to decide which icon they wish to use. See the [Figma file](https://www.figma.com/file/vaWDSKYGlRu7yEmKlxtt6S/Nostr-Icons-%26-Buttons?type=design&node-id=0%3A1&mode=design&t=tFHWCEed2S3S977r-1) for production-ready icons. You can also download the [zip file](https://nostrdesign.org/docs/resources/Nostr-Icons.zip) containing PNG and SVG versions of light and dark icons.
+
+<img src={require('@site/img/nostr-icons.png').default} />
+
 ## Books
 - [Refactoring UI](https://www.refactoringui.com/)- Practical UI tips for developers, by Adam Wathan and Steve Schoger
 - [Don't Make Me Think](https://www.google.com/search?q=dont+make+me+think) by Steve Krug - a classic on web usability dos and don'ts. 
