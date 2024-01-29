@@ -82,12 +82,6 @@ Double borders - When two elements have borders, it’s possible that some may o
 <figcaption>Here you can see two notes with border:all; creating an double border where they join. One way to avoid this issue is to apply a single border at the bottom, and then add an extra class to the first note to add a top border.</figcaption>
 </figure>
 
-  
-
-Padding between borders - Not enough padding between borders makes UI look cramped and busy.
-
-[example]
-
 ### Corner Radius
 
 Corner radius has been introduced into most UIs to reduce the visual strain of the eye focusing on the edges of an element. Adding a slight corner radius lessens eye strain, improves scanning and makes for a more pleasant experience.
