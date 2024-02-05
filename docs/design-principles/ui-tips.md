@@ -28,8 +28,10 @@ However, there are times where you need to step down to a 4px grid for smaller U
 
   
 
-[image of a 4px grid ui component]
-
+<img src={require('@site/static/img/4px-grid.png').default} />
+<figure>
+<figcaption>In this example, we have sidebar widgets to be shown on the right of the content. The widgets utilize a 4px grid (spacing of 12px) to make them more compact. Using an 8px grid (16px spacing) would make for too much white space and limit the amount of content - such as featured notes text.</figcaption>
+</figure>
   
 
 :::tip  
@@ -54,23 +56,16 @@ In the example below, we see that a Twitter-style client cannot do away with bor
 
   
 
-[snort v2 UI example image]
+<img src={require('@site/static/img/single-border.png').default} />
+<figure>
+<figcaption>Remvoing borders around content and using a card style with a solid background would make it more difficult to scan content over time.</figcaption>
+</figure>
 
   
 
-Here we can see the impact of before and after excessive border usage:
+Here is an example where each note having their own border quickly becomes distracting and makes the UI look busy. Browsing this feed for a long time would be tiring on the eyes.
 
-[example]
-
-  
-
-When you must use many borders, consider making them “softer” or lighter so that they are still visible for easy scanning, but faint enough that the user’s eyes are not distracted too much.
-
-  
-
-[example of a UI element with harsh and soft border color)
-
-  
+<img src={require('@site/static/img/double-borders.png').default} />
 
 ### Things to watch out for with borders
 
@@ -82,13 +77,10 @@ Border color and width consistency - try to keep your border color and width con
 
 Double borders - When two elements have borders, it’s possible that some may overlap, creating double borders.
 
-[example]
-
-  
-
-Padding between borders - Not enough padding between borders makes UI look cramped and busy.
-
-[example]
+<img src={require('@site/static/img/squished-border.png').default} />
+<figure>
+<figcaption>Here you can see two notes with border:all; creating an double border where they join. One way to avoid this issue is to apply a single border at the bottom, and then add an extra class to the first note to add a top border.</figcaption>
+</figure>
 
 ### Corner Radius
 
@@ -199,7 +191,7 @@ The general rule is a maximum line length of 75 characters (including spaces), u
 
   
 
-[example of UI where the line length is too long]
+<img src={require('@site/static/img/line-length.png').default} />
 
   
 

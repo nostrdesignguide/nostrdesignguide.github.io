@@ -32,9 +32,9 @@ Here we will explore various principles of good design to help you create the be
 
 We'll cover topics such as:
 
-- Design systems
+- [Design systems](/docs/design-principles/starting-from-scratch/#avoid-creating-design-systems-at-first)
 - User-centered design
-- Some UX laws
+- [Some UX laws](/docs/design-principles/ux-laws)
 - [Accessibility](/docs/design-principles/Accessibility)
 - [UI tips](/docs/design-principles/ui-tips)
 
@@ -42,19 +42,20 @@ We'll cover topics such as:
 
 A design guide wouldn't be very useful if it didn't contain actual designed examples. The Reference Designs section may include:
 
-- Actual Figma files for existing open source projects
-- Color palette ideas
-- Commonly used components (desktop and mobile)
-- Onboarding components
-- Use case-specific components (social, audio, video, long-form content)
-- Navigation componets
-- Relays
-- Settings
+- [Actual Figma files for existing open source projects](/docs/reference-designs/design-files/)
+- [Color palette ideas](/docs/reference-designs/color-palette-ideas/)
+- [Commonly used components (desktop and mobile)](/docs/category/reference-designs/)
+- [Onboarding components](/docs/reference-designs/onboarding/)
+- Use case-specific components (social, audio, video, [long-form](/docs/reference-designs/long-form/) content)
+- [Navigation componets](/docs/reference-designs/navigation/)
+- [Relays](/docs/reference-designs/relays/) 
+- [Settings](/docs/reference-designs/settings/)
+- [App Shells](/docs/reference-designs/shells/)
 - Profile
-- Media handling 
-- Search
-- Zaps
-- Threads
+- [Media handling](/docs/reference-designs/media/) 
+- [Search](/docs/reference-designs/search/)
+- [Zaps](/docs/reference-designs/zaps/)
+- [Threads](/docs/reference-designs/threads/)
 - Streaming
 - and more if time permits. 
 
@@ -63,12 +64,12 @@ We will also touch a bit on guiding principles that every developer and designer
 ## Resources
 The resources section will contain various links to useful resources that will make your design and development process easier, smarter and faster. Resources may contain:
 
-- Various frameworks to consider
-- UX Laws
-- Gradient helpers
-- Curated list of good icon sets
-- Font options
-- Possibly recordings of live streams
+- [Nostr Icons & Buttons](/docs/resources/#nostr-icons)
+- [Recommended Books](/docs/resources/#books)
+- [Various frameworks to consider](/docs/resources/#frameworks-and-helpers)
+- [Gradient helpers](/docs/resources/#color)
+- [Icon Sets](/docs/resources/#icon-sets)
+- [Font options](/docs/resources/#font-choices-free)
 
-# Glossary
-While the nostr vocabulary is constantly changing, we will do our best to define commonly accepted terms and their meanings to get you up to speed.
+# FAQs
+While nostr is constantly evolving, we will do our best to provide some frequently asked answers and questions. You can extract answers from the FAQ to include in your client as tips, tooltips or in-client FAQs. 
