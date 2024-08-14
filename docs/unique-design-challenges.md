@@ -13,6 +13,7 @@ Nostr, given its nature, presents some unique design challenges and personal rew
 3. Relays
 4. Zaps (if implemented)
 5. NIPs (and why some things are supported by some clients and not others)
+6. Deletion across tens to hundreds of relays (whereas Twitter has a sole database)
 
 In this guide, we will explore how nostr deviates from traditional apps and offer some possible ways to address the challenges around these new concepts.
 
@@ -77,3 +78,24 @@ While not part of the core nostr protocol, zaps are popular enough that we shoul
 In this guide we will explore how current clients are explaining zaps (if they are) and where / how we can improve the overall user experience by doing a better job at arming the user with the necessary information.
 
 [Explore Zaps](https://nostrdesign.org/docs/how-to/zaps/)
+
+## Challenge #5: NIPs
+
+Unlike email clients (e.g. yahoo email client, microsoft outlook email client, gmail email client etc.) which (explaining in an oversimplified way) either support or don't support the email protocol, nostr apps have tens of NIPs, and potentially hundreds of NIP candidates as nostr continues to grow. 
+
+A design consequence of a multitude of opt-in NIPs means that there will be sets of apps with little overlap in supported NIPs. This means that a user of app X may not be able to interact with a user on app Y, or vice versa. This also means that unless this is surfaced to either users, they may not be aware that they cannot interact with users of another app. 
+
+## Challenge #6: Deletion across tens to hundreds of relays
+
+Event deletion in reference to [NIP-09](https://github.com/nostr-protocol/nips/blob/master/09.md]) on nostr carries a unique challenge of asking various distinct relay (i.e. database) admins to delete a particular event.
+ 
+  ### Design considerations
+  1. There is no guarantee of deletion on nostr. Therefore it is unintentionally misleading for nostr apps to refer a request to delete as a "delete".
+  2. Superior terminology of "retract" sets expectations accordingly.
+
+  ### Open & unanswered design questions
+  1. Should the app team warn the user that there is no guarantee anything can be deleted, once posted to nostr?
+  2. Should the app explain the difference between nostr relays with different admins, vs sole admin Twitter?
+  3. If yes, when is the right moment for this? For instance, is it prior to the user's first nostr post? 
+
+
