@@ -91,7 +91,7 @@ Event deletion in reference to [NIP-09](https://github.com/nostr-protocol/nips/b
  
   ### Design considerations
   1. There is no guarantee of deletion on nostr. Therefore it is unintentionally misleading for nostr apps to refer a request to delete as a "delete".
-  2. Superior terminology of "retract" sets expectations accordingly.
+  2. Superior terminology of "deletion request" sets expectations accordingly (see discussion [here](https://github.com/nostr-protocol/nips/pull/1425)).
 
   ### Open & unanswered design questions
   1. Should the app team warn the user that there is no guarantee anything can be deleted, once posted to nostr?
