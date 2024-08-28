@@ -89,7 +89,7 @@ For further context, [Nostrability](https://github.com/nostrability/nostrability
 
 ## Challenge #6: Deletion across tens to hundreds of relays
 
-Event deletion in reference to [NIP-09](https://github.com/nostr-protocol/nips/blob/master/09.md]) on nostr carries a unique challenge of asking various distinct relay (i.e. database) admins to delete a particular event.
+Event deletion in reference to [NIP-09](https://github.com/nostr-protocol/nips/blob/master/09.md]) on nostr carries a unique challenge of asking various distinct relays (i.e. databases) to delete a particular event.
  
   ### Design considerations
   1. There is no guarantee of deletion on nostr. Therefore it is unintentionally misleading for nostr apps to refer a request to delete as a "delete".
