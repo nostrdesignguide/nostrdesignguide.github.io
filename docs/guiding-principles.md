@@ -26,6 +26,9 @@ Unless your explicit goal is to build a do-it-all client, consider leaning into 
 
 Focusing on specific use cases allows other developers to tap into existing clients and build integrations instead of recreating them from scratch. Think of nostr as a network of components that can be re-arranged in many different ways to create new experiences.
 
+For interoperability lessons learned, refer to [Nostrability](https://github.com/nostrability/nostrability/issues) - a crowdsourced repository of nostr interoperability (or lack thereof) knowledge. Devs, designers, and product contributors are encouraged to actively identify negative interoperability issues, and track & advocate for positive interoperability across many nostr apps. Reach out to 
+[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5), nostrability product contributor, to get started, or simply participate in the [Nostrability github](https://github.com/nostrability/nostrability/issue)! Feel free to use, and follow the #nostrability tag on relevant nostr posts. 
+
 ### Keep it Flexible
 
 Try to give users options to customize their experiences. 
