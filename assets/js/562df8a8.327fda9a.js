@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknostr_design=self.webpackChunknostr_design||[]).push([[2410],{7699:e=>{e.exports=JSON.parse('{"title":"How-To","slug":"/category/how-to","permalink":"/docs/category/how-to","navigation":{"previous":{"title":"UX Laws","permalink":"/docs/design-principles/ux-laws"},"next":{"title":"Error Handling","permalink":"/docs/how-to/error-handling"}}}')}}]);
